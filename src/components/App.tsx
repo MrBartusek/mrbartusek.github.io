@@ -1,10 +1,17 @@
 import HeroSection from './HeroSection';
 import Navbar from './Navbar/Navbar';
-import './App.css';
 import ProjectsSection from './ProjectsSection';
 import Footer from './Footer';
+import ReactGA from 'react-ga4';
+
+import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+
+	useEffect(() => {
+		ReactGA.initialize('G-V1LQFM1HD7');
+	}, [ ]);
 	return (
 		<>
 			<Navbar />
