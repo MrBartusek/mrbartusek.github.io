@@ -32,6 +32,7 @@ function HeroSection() {
 				<div>
 					<img
 						className='rounded-2xl max-h-80 lg:block hidden'
+						alt='profile picture'
 						src='https://github.com/MrBartusek.png?size=320'
 					/>
 				</div>

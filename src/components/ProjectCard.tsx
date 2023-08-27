@@ -16,7 +16,7 @@ function ProjectCard({ title, description, subTitle, href }: ProjectCardProps) {
 			<h3 className='text-2xl text-center font-bold'>
 				{title}
 			</h3>
-			<div className='text-lg text-primary text-center mb-4'>
+			<div className='text-lg text-blue-500 text-center mb-4'>
 				{subTitle}
 			</div>
 			<div>

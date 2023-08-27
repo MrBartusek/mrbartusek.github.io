@@ -8,8 +8,8 @@ export default {
     extend: {
       colors: {
         dark: '#161e27',
-        washed: '#1d2731',
-        'very-washed': '#2d3640',
+        washed: '#1c2630',
+        'very-washed': '#252e37',
         primary: '#2563eb'
       }
     },
