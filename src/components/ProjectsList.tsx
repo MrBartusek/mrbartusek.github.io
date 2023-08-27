@@ -19,8 +19,8 @@ function ProjectsList() {
 				href='https://github.com/MrBartusek/MeteoalarmCard'
 				description={<>
 					MeteoalarmCard is a powerful yet simple custom card to show meteorological
-					warnings card for <a className='styled-link' href="https://www.home-assistant.io">Home Assistant</a>.
-					It supports wast majority of the core integrations as well as custom ones.
+					warnings card for Home Assistant. It supports wast majority of the core
+					integrations as well as custom ones.
 				</>}
 			/>
 			<ProjectCard
