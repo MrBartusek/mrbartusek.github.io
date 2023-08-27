@@ -1,0 +1,38 @@
+import Container from './Container';
+
+function HeroSection() {
+	const universityUrl = (
+		<a
+			href="https://www.uni.lodz.pl"
+			className='styled-link'
+			target='_blank'
+		>
+            University&nbsp;of&nbsp;Łódź
+		</a>
+	);
+	return (
+		<Container>
+			<div className='my-28 flex gap-48'>
+				<div className='flex-1 flex flex-col justify-center'>
+					<h1 className='text-5xl text-gray-200 font-semibold mb-8'>
+                        Hey! I'm {''}
+						<span className='text-primary'>
+                            Bartosz Dokurno
+						</span>
+					</h1>
+					<p className='text-xl leading-8'>
+                        Known online as <code>MrBartusek</code>. I'm an aspiring web&nbsp;developer with passion and experience building
+                        websites&nbsp;and web&nbsp;applications. I&nbsp;frequently contribute
+                        to open-source projects and maintain a&nbsp;handful&nbsp;of them. Right&nbsp;now,
+                        a student at&nbsp;the {universityUrl}.
+					</p>
+				</div>
+				<div className='h-80'>
+					<img className='rounded-2xl h-[100%]' src='https://github.com/MrBartusek.png'/>
+				</div>
+			</div>
+		</Container>
+	);
+}
+
+export default HeroSection;
