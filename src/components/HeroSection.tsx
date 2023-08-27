@@ -1,5 +1,4 @@
 import Container from './Container';
-import SocialChip from './SocialChip';
 import SocialDrawer from './SocialDrawer';
 
 function HeroSection() {
@@ -13,8 +12,8 @@ function HeroSection() {
 		</a>
 	);
 	return (
-		<Container>
-			<div className='my-28 flex lg:gap-48 lg:text-left text-center'>
+		<Container id="hero">
+			<div className='my-32 flex lg:gap-48 lg:text-left text-center'>
 				<div className='flex-1 flex flex-col justify-center'>
 					<h1 className='text-5xl text-gray-200 font-semibold mb-8'>
 						Hey! I'm {''}
@@ -30,7 +29,7 @@ function HeroSection() {
 					</p>
 					<SocialDrawer />
 				</div>
-				<div className='flex items-center'>
+				<div className='flex'>
 					<img className='rounded-2xl max-h-80 lg:block hidden' src='https://github.com/MrBartusek.png'/>
 				</div>
 			</div>

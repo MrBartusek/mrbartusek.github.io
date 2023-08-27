@@ -12,8 +12,8 @@ function SocialChip({name, iconSrc, href}: SocialChipProps) {
 			href={href}
 			target='_blank'
 			className={classNames(
-				'bg-gray-800 rounded-xl flex gap-3 px-4 py-2 items-center',
-				'hover:bg-gray-700 transition-colors'
+				'bg-washed hover:bg-very-washed flex gap-3 px-4 py-2',
+				'items-center transition-colors rounded-xl'
 			)}>
 			<div>
 				<img src={iconSrc} width={24} height={24} />
