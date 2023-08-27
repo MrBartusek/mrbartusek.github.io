@@ -3,5 +3,5 @@
 }
 
 .styled-link {
-  @apply text-primary underline;
+  @apply text-blue-400 underline;
 }
