@@ -5,7 +5,7 @@ function ProjectsList() {
 		<div className="grid grid-cols-2 gap-8 my-16">
 			<ProjectCard
 				title='DokChat'
-				subTitle='Instant Messaging'
+				subTitle='Website'
 				href='https://dokchat.dokurno.dev'
 				description={<>
 					DokChat is a comprehensive instant messaging app with group chats, attachments,
@@ -25,7 +25,7 @@ function ProjectsList() {
 			/>
 			<ProjectCard
 				title='gif-picker-react'
-				subTitle='React'
+				subTitle='Library'
 				href='https://dokurno.dev/gif-picker-react/'
 				description={<>
 					Tenor GIF picker component for React applications that runs on Tenor API V2.
