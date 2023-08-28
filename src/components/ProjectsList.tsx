@@ -2,7 +2,7 @@ import ProjectCard from './ProjectCard';
 
 function ProjectsList() {
 	return (
-		<div className="grid grid-cols-2 gap-8 my-16">
+		<div className="grid md:grid-cols-2 grid-cols gap-8 my-16">
 			<ProjectCard
 				title='DokChat'
 				subTitle='Website'
