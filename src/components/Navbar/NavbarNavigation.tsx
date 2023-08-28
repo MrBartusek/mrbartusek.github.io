@@ -1,11 +1,15 @@
+import { useTranslation } from 'react-i18next';
 import NavbarLink from './NavbarLink';
+import LanguageSelector from '../LanguageSelector';
 
 function NavbarNavigation() {
+	const { t } = useTranslation();
+
 	return (
 		<nav className='gap-4 sm:flex hidden'>
-			<NavbarLink href="#about">About</NavbarLink>
-			<NavbarLink href="#projects">Projects</NavbarLink>
-			<NavbarLink href="#contact">Contact</NavbarLink>
+			<NavbarLink href="#projects">{t('sections.projects.subtitle')}</NavbarLink>
+			<NavbarLink href="#contact">{t('sections.contact.subtitle')}</NavbarLink>
+			<LanguageSelector />
 		</nav>
 	);
 }

@@ -1,6 +1,6 @@
 import Container from '../Container';
-import NavbarNavigation from './NavbarNavigation';
 import NavbarLogo from './NavbarLogo';
+import NavbarNavigation from './NavbarNavigation';
 
 function Navbar() {
 	return (
