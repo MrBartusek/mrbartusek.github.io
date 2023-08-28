@@ -4,14 +4,14 @@ import NavbarLogo from './NavbarLogo';
 
 function Navbar() {
 	return (
-		<nav>
+		<header>
 			<Container>
 				<div className='flex py-6 justify-between'>
 					<NavbarLogo />
 					<NavbarNavigation />
 				</div>
 			</Container>
-		</nav>
+		</header>
 	);
 }
 

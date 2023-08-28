@@ -9,7 +9,7 @@ export interface ProjectCardProps {
 function ProjectCard({ title, description, subTitle, href }: ProjectCardProps) {
 	return (
 		<a
-			className='bg-washed hover:bg-very-washed p-12 rounded-xl transition-colors cursor-pointer'
+			className='bg-washed hover:bg-very-washed p-12 rounded-xl transition-colors cursor-pointer shadow-lg'
 			href={href}
 			target="_blank"
 		>

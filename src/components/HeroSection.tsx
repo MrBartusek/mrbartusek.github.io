@@ -1,4 +1,4 @@
-import Container from './Container';
+import Section from './Section';
 import SocialDrawer from './SocialDrawer';
 
 function HeroSection() {
@@ -23,8 +23,8 @@ function HeroSection() {
 	);
 
 	return (
-		<Container id="hero">
-			<div className='my-32 flex xl:gap-48 lg:gap-16 lg:text-left text-center'>
+		<Section id="hero">
+			<div className='flex xl:gap-48 lg:gap-16 lg:text-left text-center'>
 				<div className='flex-1 flex flex-col justify-center'>
 					<h1 className='sm:text-5xl text-4xl text-gray-200 font-semibold mb-8'>
 						Hey! I'm {''}
@@ -43,14 +43,14 @@ function HeroSection() {
 				</div>
 				<div>
 					<img
-						className='rounded-2xl max-h-80 lg:block hidden'
+						className='rounded-2xl max-h-80 lg:block hidden shadow-2xl'
 						alt='profile picture'
 						width={320} height={320}
 						src='avatar.webp'
 					/>
 				</div>
 			</div>
-		</Container>
+		</Section>
 	);
 }
 

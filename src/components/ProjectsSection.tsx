@@ -1,17 +1,15 @@
-import Container from './Container';
 import ProjectsList from './ProjectsList';
+import Section from './Section';
 import SectionHeading from './SectionHeading';
 
 function ProjectsSection() {
 	return (
-		<Container id="projects">
-			<div className='my-32'>
-				<SectionHeading upperTitle='Projects'>
-                    Dig into my work
-				</SectionHeading>
-				<ProjectsList />
-			</div>
-		</Container>
+		<Section id="projects">
+			<SectionHeading upperTitle='Projects'>
+                Dig into my work
+			</SectionHeading>
+			<ProjectsList />
+		</Section>
 	);
 }
 
