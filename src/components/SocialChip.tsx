@@ -16,7 +16,7 @@ function SocialChip({name, iconSrc, href}: SocialChipProps) {
 				'items-center transition-colors rounded-xl shadow-md'
 			)}>
 			<div>
-				<img src={iconSrc} alt='icon' role='none' width={24} height={24} />
+				<img src={iconSrc} alt='icon' role='presentation' width={24} height={24} />
 			</div>
 			{name}
 		</a>
