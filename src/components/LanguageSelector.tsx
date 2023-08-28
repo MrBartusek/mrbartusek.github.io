@@ -5,7 +5,7 @@ function LanguageSelector() {
 	const [ language, setLanguage ] = useState(i18n.language);
 
 	function handleClick() {
-		i18n.changeLanguage(language == 'pl' ? 'en' : 'pl').catch(console.error);
+		i18n.changeLanguage(language == 'pl-PL' ? 'en-US' : 'pl-PL').catch(console.error);
 		setLanguage(i18n.language);
 	}
 
