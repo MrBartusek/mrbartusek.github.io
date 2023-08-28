@@ -1,7 +1,7 @@
 {
     "hero": {
         "hello": "Cześć! Nazywam się",
-        "description": "Znany online bardziej jako <username>MrBartusek</username>. Jestem aspirującym web\u00A0developerem z\u00A0pasją i\u00A0doświadczeniem w\u00A0budowani stron\u00A0oraz aplikacji\u00A0internetowych. Często wspieram projekty open-source a także utrzymuje kilka z nich, przykładowo <meteoalarmUrl>Meteoalarm</meteoalarmUrl>. Aktualnie, staram dowiedzieć się więcej o tworzeniu stron internetowych, jestem także studentem <universityUrl>Uniwersytetu Łódzkiego</universityUrl>."
+        "description": "Znany online bardziej jako <username>MrBartusek</username>. Jestem aspirującym web\u00A0developerem z\u00A0pasją i\u00A0doświadczeniem w\u00A0budowani stron\u00A0oraz aplikacji\u00A0internetowych. Często wspieram projekty open-source a także utrzymuje kilka z nich, przykładowo <meteoalarmUrl>MeteoalarmCard</meteoalarmUrl>. Aktualnie, staram dowiedzieć się więcej o tworzeniu stron internetowych, jestem także studentem <universityUrl>Uniwersytetu Łódzkiego</universityUrl>."
     },
     "sections": {
         "about": {
