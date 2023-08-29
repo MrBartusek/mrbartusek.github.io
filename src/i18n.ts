@@ -9,7 +9,7 @@ i18n
 	.use(LanguageDetector)
 	.use(initReactI18next)
 	.init({
-		fallbackLng: 'en-US',
+		fallbackLng: 'en',
 		debug: true
 	})
 	.catch(console.error);
