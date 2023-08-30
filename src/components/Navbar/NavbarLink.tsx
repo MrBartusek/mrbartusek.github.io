@@ -1,13 +1,19 @@
 export interface NavbarNavigationProps {
-    href: string;
+    elementId: string;
     children: React.ReactNode
 }
 
-function NavbarLink({ href, children }: NavbarNavigationProps) {
+function NavbarLink({ elementId, children }: NavbarNavigationProps) {
+	function handleClick() {
+		const element = document.getElementById(elementId);
+		if (element) {
+			element.scrollIntoView({ behavior: 'smooth' });
+		}
+	}
 	return (
-		<a href={href} className='hover:underline'>
+		<button onClick={handleClick} className='hover:underline'>
 			{children}
-		</a>
+		</button>
 	);
 }
 
