@@ -1,7 +1,7 @@
 {
     "hero": {
         "hello": "Hey! I'm",
-        "description": "Known online as <username>MrBartusek</username>. I'm an aspiring web\u00A0developer with\u00A0passion and experience\u00A0building websites\u00A0and web\u00A0applications. I\u00A0frequently contribute to open-source projects and maintain a\u00A0handful\u00A0of them, such as <meteoalarmUrl>MeteoalarmCard</meteoalarmUrl>. Right\u00A0now, trying to learn more about web development while studying at the <universityUrl>University\u00A0of\u00A0Łódź</universityUrl>."
+        "description": "Known online as <username>MrBartusek</username>. I'm an Full-Stack\u00A0Developer with\u00A0passion and experience\u00A0building websites\u00A0and web\u00A0applications. I\u00A0frequently contribute to open-source projects and maintain a\u00A0handful\u00A0of them, such as <meteoalarmUrl>MeteoalarmCard</meteoalarmUrl>. Right\u00A0now, trying to learn more about web development while studying at the <universityUrl>University\u00A0of\u00A0Łódź</universityUrl>."
     },
     "sections": {
         "projects": {
