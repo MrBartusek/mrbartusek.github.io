@@ -33,7 +33,7 @@ function ProjectLinks({ demoLink, codeLink, homeAssistantForumLink }: ProjectLin
 			): null}
 			{codeLink ? (
 				<Button
-					href={demoLink}
+					href={codeLink}
 					iconSrc={GithubIcon}
 					className='bg-slate-600 hover:bg-slate-700'
 				>
