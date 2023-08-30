@@ -23,7 +23,7 @@ function HeroSection() {
 
 	return (
 		<Section id="hero">
-			<div className='flex xl:gap-48 lg:gap-16 lg:text-left text-center'>
+			<div className='flex xl:gap-48 lg:gap-16 lg:text-left text-center py-20'>
 				<div className='flex-1 flex flex-col justify-center'>
 					<h1 className='sm:text-4xl text-3xl text-gray-200 font-semibold mb-8'>
 						{t('hero.hello')} {''}

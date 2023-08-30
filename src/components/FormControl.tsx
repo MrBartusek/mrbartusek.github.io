@@ -21,7 +21,7 @@ function FormControl(props: FormControlPropsType) {
 		className: classNames(
 			'block w-full px-2.5 py-2 bg-very-washed border border-washed',
 			'rounded-md focus:border-primary focus:shadow-sm shadow-primary',
-			'border-opacity-30 mt-1.5 mb-4 text-lg', props.className
+			'border-opacity-30 mt-1.5 mb-4 text-lg transition-shadow', props.className
 		)
 	});
 	return (
