@@ -44,5 +44,9 @@
         "email": "Email address",
         "message": "Message",
         "submit": "Submit"
+    },
+    "footer": {
+        "handcrafted_by": "Handcrafted by me",
+        "with": "with"
     }
 }

@@ -7,7 +7,7 @@ export interface SectionProps extends React.DetailedHTMLProps<React.HTMLAttribut
 
 function Section(props: SectionProps) {
 	return (
-		<section {...props} className={classNames('lg:py-20 py-12', props.className)}>
+		<section {...props} className={classNames('lg:py-16 py-12', props.className)}>
 			<Container>
 				{props.children}
 			</Container>
