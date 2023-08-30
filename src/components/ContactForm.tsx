@@ -38,8 +38,8 @@ function ContactForm() {
 				<FormControl
 					as='textarea'
 					label={t('contact.message')}
-					id="email"
-					name="email"
+					id="message"
+					name="message"
 					required
 					rows={8}
 					maxLength={4000}

@@ -13,7 +13,7 @@ function LinkButton(props: ButtonProps) {
 			target='_blank'
 			className={classNames('styled-button', props.className)}>
 			<div>
-				<img src={props.iconSrc} alt='icon' role='presentation' width={19} height={19} />
+				<img src={props.iconSrc} alt='icon' role='none' width={19} height={19} />
 			</div>
 			{props.children}
 		</a>
