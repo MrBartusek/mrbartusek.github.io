@@ -1,11 +1,13 @@
 import { useState } from 'react';
-import i18n from '../i18n';
+import i18n, { SUPPORTED_LANGUAGES } from '../i18n';
 
 function LanguageSelector() {
 	const [ language, setLanguage ] = useState(i18n.language);
 
 	function handleClick() {
-		i18n.changeLanguage(language == 'pl' ? 'en' : 'pl').catch(console.error);
+		const currentLangIndex = SUPPORTED_LANGUAGES.indexOf(language);
+		const nextLangIndex = (currentLangIndex + 1) % SUPPORTED_LANGUAGES.length;
+		i18n.changeLanguage(SUPPORTED_LANGUAGES[nextLangIndex]).catch(console.error);
 		setLanguage(i18n.language);
 	}
 
