@@ -19,7 +19,7 @@ function ProjectCard({ title, description, subTitle, demoLink, codeLink, homeAss
 				alt={`${title} - project image`}
 				loading="lazy"
 				className={classNames(
-					'object-cover max-h-96 shadow-lg max-w-[55%] lg:block hidden',
+					'object-cover shadow-lg max-w-[43%]  lg:block hidden',
 					'border border-very-washed rounded-xl'
 				)}
 			/>
