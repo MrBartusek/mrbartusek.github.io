@@ -10,7 +10,8 @@ export default {
         dark: '#161e27',
         washed: '#1b242e',
         'very-washed': '#252e37',
-        primary: '#2563eb'
+        primary: '#2563eb',
+        'primary-hover': '#0052ce'
       }
     },
   },
