@@ -1,0 +1,4 @@
+.styled-button {
+    @apply bg-primary hover:bg-primary-hover flex gap-3 px-5 py-2.5;
+    @apply items-center transition-colors rounded-xl shadow-md cursor-pointer;
+}

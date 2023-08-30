@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import GithubIcon from '../assets/github-logo.svg';
 import RedirectIcon from '../assets/redirect.svg';
 import HomeAssistantIcons from '../assets/home-assistant.svg';
-import Button from './Button';
+import Button from './LinkButton';
 
 export interface ProjectLinksProps {
     demoLink?: string,

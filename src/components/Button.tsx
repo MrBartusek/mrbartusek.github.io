@@ -1,25 +1,19 @@
 import classNames from 'classnames';
-import { AnchorHTMLAttributes, DetailedHTMLProps } from 'react';
+import { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
+import './Button.css';
 
-export interface ButtonProps extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
-    iconSrc: string;
+export interface ButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
+
 }
 
 function Button(props: ButtonProps) {
 	return (
-		<a
+		<button
 			{...props}
-			target='_blank'
-			className={classNames(
-				'bg-primary hover:bg-primary-hover flex gap-3 px-5 py-2.5',
-				'items-center transition-colors rounded-xl shadow-md cursor-pointer',
-				props.className
-			)}>
-			<div>
-				<img src={props.iconSrc} alt='icon' role='presentation' width={19} height={24} />
-			</div>
+			className={classNames('styled-button bg-primary', props.className)}
+		>
 			{props.children}
-		</a>
+		</button>
 	);
 }
 

@@ -18,5 +18,11 @@
     },
     "projects": {
         "more": "There is more of my work available at my <github>GitHub profile</github>."
+    },
+    "contact": {
+        "name": "Name",
+        "email": "Email address",
+        "message": "Message",
+        "submit": "Submit"
     }
 }

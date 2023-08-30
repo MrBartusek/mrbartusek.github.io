@@ -45,7 +45,7 @@ function ProjectsList() {
 			/>
 			<ProjectCard
 				title='ClashCalendar'
-				subTitle='Websitet'
+				subTitle='Website'
 				demoLink='https://dokurno.dev/ClashCalendar/'
 				codeLink='https://github.com/MrBartusek/ClashCalendar'
 				imageSrc={ClashCalendarImage}

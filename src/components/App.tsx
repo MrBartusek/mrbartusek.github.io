@@ -6,6 +6,7 @@ import ReactGA from 'react-ga4';
 
 import './App.css';
 import { useEffect } from 'react';
+import ContactSection from './ContactSecion';
 
 function App() {
 
@@ -18,9 +19,7 @@ function App() {
 			<main>
 				<HeroSection />
 				<ProjectsSection />
-				<p className='text-lg text-center pb-16 text-gray-400'>
-					- This website is still in progress, there is more to come -
-				</p>
+				<ContactSection />
 			</main>
 			<Footer />
 		</>
