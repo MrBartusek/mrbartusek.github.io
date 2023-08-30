@@ -19,7 +19,7 @@ function ProjectsSection() {
 					components={{
 						github: (
 							<a
-								href="https://github.com/MrBartusek"
+								href="https://github.com/MrBartusek?tab=repositories&q=stars%3A%3E0&type=source&language=&sort=stargazers"
 								className='text-gray-300 underline'
 								target='_blank'
 							/>
