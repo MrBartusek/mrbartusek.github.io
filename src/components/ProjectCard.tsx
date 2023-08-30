@@ -17,6 +17,7 @@ function ProjectCard({ title, description, subTitle, demoLink, codeLink, homeAss
 			<img
 				src={imageSrc}
 				alt={`${title} - project image`}
+				loading="lazy"
 				className={classNames(
 					'object-cover max-h-96 shadow-lg max-w-[55%] lg:block hidden',
 					'border border-very-washed rounded-xl'
