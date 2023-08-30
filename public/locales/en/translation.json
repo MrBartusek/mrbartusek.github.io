@@ -17,7 +17,27 @@
         "description": "Known online as <username>MrBartusek</username>. I'm an Full-Stack\u00A0Developer with\u00A0passion and experience\u00A0building websites\u00A0and web\u00A0applications. I\u00A0frequently contribute to open-source projects and maintain a\u00A0handful\u00A0of them, such as <meteoalarmUrl>MeteoalarmCard</meteoalarmUrl>. Right\u00A0now, trying to learn more about web development while studying at the <universityUrl>University\u00A0of\u00A0Łódź</universityUrl>."
     },
     "projects": {
-        "more": "There is more of my work available at my <github>GitHub profile</github>."
+        "more": "There is more of my work available at my <github>GitHub profile</github>.",
+        "dokchat": {
+            "name": "DokChat",
+            "subtitle": "Website",
+            "description": "DokChat is a comprehensive instant messaging app with group chats, attachments, GIFs, and a Desktop app. Supports customization of user profiles and colors of groups. Comes with DokChat Desktop - Electron desktop client"
+        },
+        "gif-picker-react": {
+            "name": "gif-picker-react",
+            "subtitle": "Library",
+            "description": "gif-picker-react is GIF picker component for React applications that features Tenor GIF search on and trending categories. Complete with state of the art customization"
+        },
+        "meteoalarm-card": {
+            "name": "MeteoalarmCard",
+            "subtitle": "Home Assistant",
+            "description": "MeteoalarmCard is a powerful yet simple custom card to show meteorological warnings card for Home Assistant. It supports wast majority of the core integrations as well as custom ones."
+        },
+        "clash-calendar": {
+            "name": "ClashCalendar",
+            "subtitle": "Website",
+            "description": "Clash Calendar is easy to use website that integrates League Of Legends clashes into Google Calendar. You can select calendar for any region and any tier. It will be updated with past, current and upcoming clashes."
+        }
     },
     "contact": {
         "name": "Name",
