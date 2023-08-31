@@ -12,11 +12,12 @@ function MoreProjects() {
 		<div
 			className={classNames(
 				'bg-washed rounded-xl flex flex-1 text-xl text-center items-center',
-				'shadow-lg border border-very-washed p-8 text-gray-300 flex justify-between'
+				'shadow-lg border border-very-washed p-8 text-gray-300 flex justify-between',
+				'flex-col lg:flex-row gap-8'
 			)}
 		>
 			{t('projects.more')}
-			<LinkButton className='text-lg text-gray-50 bg-green-700'  href={PROJECTS_URL} iconSrc={GitHubIcon}>GitHub</LinkButton>
+			<LinkButton className='text-lg text-gray-50 bg-green-700 hover:bg-green-800'  href={PROJECTS_URL} iconSrc={GitHubIcon}>GitHub</LinkButton>
 		</div>
 	);
 }

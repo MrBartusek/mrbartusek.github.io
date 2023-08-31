@@ -37,7 +37,7 @@ function ProjectLinks({ demoLink, codeLink, homeAssistantForumLink }: ProjectLin
 					iconSrc={GithubIcon}
 					className='bg-slate-600 hover:bg-slate-700'
 				>
-                    Github
+                    GitHub
 				</Button>
 			): null}
 		</div>

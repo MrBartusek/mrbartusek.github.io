@@ -1,8 +1,8 @@
-import { Trans, useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
+import MoreProjects from './MoreProjects';
 import ProjectsList from './ProjectsList';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
-import MoreProjects from './MoreProjects';
 
 function ProjectsSection() {
 	const { t } = useTranslation();
