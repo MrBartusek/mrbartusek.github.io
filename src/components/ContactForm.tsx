@@ -48,7 +48,13 @@ function ContactForm() {
 				{ /* Honeypot */}
 				<input type="hidden" name="ejpzmytb" />
 
-				<div className='flex justify-end mt-8'>
+				<div className='flex justify-between items-center mt-8'>
+					<div className='text-gray-400'>
+						{t('contact.via-email')}:{' '}
+						<a href='mailto:bartosz@dokurno.dev' className='underline'>
+							bartosz@dokurno.dev
+						</a>
+					</div>
 					<Button type='submit'>{t('contact.submit')}</Button>
 				</div>
 			</form>

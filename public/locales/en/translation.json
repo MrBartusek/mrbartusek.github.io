@@ -7,6 +7,10 @@
             "title": "Dig into my work",
             "subtitle": "Projects"
         },
+        "skills": {
+            "title": "Things I know",
+            "subtitle": "Skills"
+        },
         "contact": {
             "title": "Get in touch",
             "subtitle": "Contact"
@@ -39,11 +43,17 @@
             "description": "Clash Calendar is easy to use website that integrates League Of Legends clashes into Google Calendar. You can select calendar for any region and any tier. It will be updated with past, current and upcoming clashes."
         }
     },
+    "skills": {
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "other": "Other"
+    },
     "contact": {
         "name": "Name",
         "email": "Email address",
         "message": "Message",
-        "submit": "Submit"
+        "submit": "Submit",
+        "via-email": "Or reach me via email"
     },
     "footer": {
         "handcrafted_by": "Handcrafted by me",

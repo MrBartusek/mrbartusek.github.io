@@ -16,7 +16,7 @@ function LanguageSelector() {
 	}
 
 	return (
-		<button className='hover:underline border-l ml-4 pl-3 border-slate-600' onClick={handleClick}>
+		<button className='hover:underline border-l ml-5 pl-5 border-slate-600' onClick={handleClick}>
 			{ getNextLanguage().toUpperCase() }
 		</button>
 	);

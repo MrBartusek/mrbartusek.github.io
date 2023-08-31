@@ -1,30 +1,26 @@
 import classNames from 'classnames';
 import { AnchorHTMLAttributes, DetailedHTMLProps } from 'react';
 
-export interface SocialButtonProps extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
+type LinkProps = DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>;
+
+export interface SocialButtonProps extends LinkProps {
     name: string;
     iconSrc: string;
     href: string;
 }
 
-function SocialButton(props: SocialButtonProps) {
-	const passProps = {
-		...props,
-		name: undefined,
-		iconSrc: undefined,
-		href: undefined
-	};
+function SocialButton({href, iconSrc, name, ...props}: SocialButtonProps) {
 	return (
 		<a
-			{...passProps}
-			href={props.href}
+			{...props}
+			href={href}
 			target='_blank'
 			className={classNames(
 				'bg-very-washed hover:bg-slate-700 p-3.5',
 				'items-center transition-colors rounded-full shadow-md'
 			)}>
 			<div>
-				<img src={props.iconSrc} alt={`${props.name} icon`} aria-hidden="true" width={22} height={22} />
+				<img src={iconSrc} alt={`${name} icon`} aria-hidden="true" width={22} height={22} />
 			</div>
 		</a>
 	);

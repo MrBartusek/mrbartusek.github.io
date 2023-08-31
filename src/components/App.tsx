@@ -6,6 +6,7 @@ import Footer from './Footer';
 import HeroSection from './HeroSection';
 import Navbar from './Navbar/Navbar';
 import ProjectsSection from './ProjectsSection';
+import SkillSection from './SkillSection';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 			<main>
 				<HeroSection />
 				<ProjectsSection />
+				<SkillSection />
 				<ContactSection />
 			</main>
 			<Footer />

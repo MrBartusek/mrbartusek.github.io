@@ -10,6 +10,10 @@
         "contact": {
             "title": "Skontaktuj się ze mną",
             "subtitle": "Kontakt"
+        },
+        "skills": {
+            "title": "Rzeczy które potrafię",
+            "subtitle": "Umiejętności"
         }
     },
     "hero": {
@@ -39,11 +43,17 @@
             "description": "Clash Calendar to łatwa w użyciu witryna internetowa, która integruje turnieje Clash w League Of Legends z Kalendarzem Google. Dzięki niej możesz wybrać kalendarz dla dowolnego regionu i dowolnego poziomu gry. Ten kalendarz będzie aktualizowany z obecnymi i przyszłymi turniejami."
         }
     },
+    "skills": {
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "other": "Inne"
+    },
     "contact": {
         "name": "Imię",
         "email": "Adres Email",
         "message": "Wiadomość",
-        "submit": "Wyślij"
+        "submit": "Wyślij",
+        "via-email": "Lub napisz do mnie email"
     },
     "footer": {
         "handcrafted_by": "Stworzone przeze mnie",
