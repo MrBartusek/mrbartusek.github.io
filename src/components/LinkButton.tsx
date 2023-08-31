@@ -3,13 +3,16 @@ import { AnchorHTMLAttributes, DetailedHTMLProps } from 'react';
 import './Button.css';
 
 export interface ButtonProps extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
-    iconSrc: string;
+    iconSrc?: string;
 }
 
 function LinkButton(props: ButtonProps) {
+	const propsCopy = {...props};
+	delete propsCopy.iconSrc;
+
 	return (
 		<a
-			{...props}
+			{...propsCopy}
 			target='_blank'
 			className={classNames('styled-button', props.className)}>
 			<div>
