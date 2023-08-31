@@ -10,6 +10,7 @@ function SocialButtonDrawer() {
 						name={platform.name}
 						iconSrc={platform.icon}
 						href={platform.url}
+						aria-label={`Link to my ${platform.name}`}
 						key={i}
 					/>
 				);
