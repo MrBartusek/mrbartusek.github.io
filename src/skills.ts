@@ -10,6 +10,7 @@ export const SKILLS: SkillsList = {
 		'HTML / CSS / JS',
 		'TypeScript',
 		'React',
+		'jQuery',
 		'TailwindCSS',
 		'Sass / PostCSS',
 		'Bootstrap',
