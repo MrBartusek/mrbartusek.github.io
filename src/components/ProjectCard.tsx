@@ -34,7 +34,7 @@ function ProjectCard({ title, description, subTitle, demoLink, codeLink, homeAss
 					'shadow-lg border border-very-washed'
 				)}
 			>
-				<div className="p-12 flex flex-1 items-center justify-center">
+				<div className="sm:p-12 p-6 flex flex-1 items-center justify-center">
 					<div className='flex flex-col items-center'>
 						<h3 className='text-2xl text-center font-bold'>
 							{title}
@@ -42,7 +42,7 @@ function ProjectCard({ title, description, subTitle, demoLink, codeLink, homeAss
 						<div className='text-lg text-primary text-center mb-4 font-bold'>
 							{subTitle}
 						</div>
-						<div>
+						<div className='text-center lg:text-left'>
 							{description}
 						</div>
 						<ProjectLinks

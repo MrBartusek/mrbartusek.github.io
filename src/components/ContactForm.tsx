@@ -13,7 +13,7 @@ function ContactForm() {
 				method="POST"
 				encType="multipart/form-data"
 			>
-				<div className='flex flex-row gap-8'>
+				<div className='flex flex-col md:flex-row md:gap-8'>
 					<FormControl
 						as='input'
 						label={t('contact.name')}
@@ -48,14 +48,14 @@ function ContactForm() {
 				{ /* Honeypot */}
 				<input type="hidden" name="ejpzmytb" />
 
-				<div className='flex justify-between items-center mt-8'>
+				<div className='flex flex-col-reverse md:flex-row gap-5 justify-between items-center mt-8'>
 					<div className='text-gray-400'>
 						{t('contact.via-email')}:{' '}
 						<a href='mailto:bartosz@dokurno.dev' className='underline'>
 							bartosz@dokurno.dev
 						</a>
 					</div>
-					<Button type='submit'>{t('contact.submit')}</Button>
+					<Button type='submit' className='px-16 md:px-8'>{t('contact.submit')}</Button>
 				</div>
 			</form>
 		</div>

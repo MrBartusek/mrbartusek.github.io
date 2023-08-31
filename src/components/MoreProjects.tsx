@@ -12,8 +12,8 @@ function MoreProjects() {
 		<div
 			className={classNames(
 				'bg-washed rounded-xl flex flex-1 text-xl text-center items-center',
-				'shadow-lg border border-very-washed p-8 text-gray-300 flex justify-between',
-				'flex-col lg:flex-row gap-8'
+				'shadow-lg border border-very-washed text-gray-300 flex justify-between',
+				'flex-col lg:flex-row gap-8 sm:p-12 p-8'
 			)}
 		>
 			{t('projects.more')}
