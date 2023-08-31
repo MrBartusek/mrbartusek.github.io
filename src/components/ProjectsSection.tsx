@@ -2,6 +2,7 @@ import { Trans, useTranslation } from 'react-i18next';
 import ProjectsList from './ProjectsList';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
+import MoreProjects from './MoreProjects';
 
 function ProjectsSection() {
 	const { t } = useTranslation();
@@ -11,22 +12,8 @@ function ProjectsSection() {
 			<SectionHeading subTitle={t('sections.projects.subtitle')}>
 				{t('sections.projects.title')}
 			</SectionHeading>
-			<ProjectsList />
-			<div className='text-gray-400 text-center text-lg'>
-				<Trans
-					t={t}
-					i18nKey={'projects.more'}
-					components={{
-						github: (
-							<a
-								href="https://github.com/MrBartusek?tab=repositories&q=stars%3A%3E0&type=source&language=&sort=stargazers"
-								className='text-gray-300 underline'
-								target='_blank'
-							/>
-						)
-					}}
-				/>
-			</div>
+			<ProjectsList className='pt-12' />
+			<MoreProjects />
 		</Section>
 	);
 }

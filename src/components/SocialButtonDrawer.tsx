@@ -1,14 +1,13 @@
 import { SOCIAL_PLATFORMS } from '../socialPlatform';
-import SocialChip from './SocialChip';
+import SocialButton from './SocialButton';
 
-function SocialDrawer() {
+function SocialButtonDrawer() {
 	return (
-		<div className='flex flex-wrap gap-3 my-12 lg:justify-start justify-center'>
+		<div className='flex flex-wrap gap-3 justify-center'>
 			{SOCIAL_PLATFORMS.map((platform, i) => {
 				return (
-					<SocialChip
+					<SocialButton
 						name={platform.name}
-						displayName={platform.displayName}
 						iconSrc={platform.icon}
 						href={platform.url}
 						key={i}
@@ -19,4 +18,4 @@ function SocialDrawer() {
 	);
 }
 
-export default SocialDrawer;
+export default SocialButtonDrawer;

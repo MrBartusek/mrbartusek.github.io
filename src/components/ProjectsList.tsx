@@ -1,16 +1,21 @@
 import ProjectCard from './ProjectCard';
-
 import DokChatImage from '../assets/dokchat.png';
 import GifPickerReactImage from '../assets/gif-picker-react.png';
 import MeteoalarmCardImage from '../assets/meteoalarm-card.png';
 import ClashCalendarImage from '../assets/clash-calendar.png';
 import { useTranslation } from 'react-i18next';
+import { DetailedHTMLProps, HTMLAttributes } from 'react';
+import classNames from 'classnames';
 
-function ProjectsList() {
+export interface ProjectsListProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+
+}
+
+function ProjectsList(props: ProjectsListProps) {
 	const { t } = useTranslation();
 
 	return (
-		<div className="flex flex-col gap-8 my-16">
+		<div {...props} className={classNames('flex flex-col gap-8 my-8', props.className)}>
 			<ProjectCard
 				title={t('projects.dokchat.name')}
 				subTitle={t('projects.dokchat.subtitle')}

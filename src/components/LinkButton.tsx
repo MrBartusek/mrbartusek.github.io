@@ -14,10 +14,14 @@ function LinkButton(props: ButtonProps) {
 		<a
 			{...propsCopy}
 			target='_blank'
-			className={classNames('styled-button', props.className)}>
-			<div>
-				<img src={props.iconSrc} alt='icon' role='none' width={19} height={19} />
-			</div>
+			className={classNames('styled-button', props.className)}
+		>
+			{props.iconSrc ? (
+				<div>
+					<img src={props.iconSrc} alt='icon' role='none' width={19} height={19} />
+				</div>
+			): null}
+
 			{props.children}
 		</a>
 	);

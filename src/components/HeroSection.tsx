@@ -1,6 +1,6 @@
 import { Trans, useTranslation } from 'react-i18next';
 import Section from './Section';
-import SocialDrawer from './SocialDrawer';
+import SocialChipsDrawer from './SocialChipsDrawer';
 
 function HeroSection() {
 	const { t } = useTranslation();
@@ -42,7 +42,7 @@ function HeroSection() {
 							}}
 						/>
 					</p>
-					<SocialDrawer />
+					<SocialChipsDrawer />
 				</div>
 				<div>
 					<img

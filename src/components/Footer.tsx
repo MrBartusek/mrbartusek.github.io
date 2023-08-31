@@ -1,13 +1,18 @@
 import { useTranslation } from 'react-i18next';
 import Container from './Container';
+import SocialButtonDrawer from './SocialButtonDrawer';
+import classNames from 'classnames';
 
 function Footer() {
 	const { t } = useTranslation();
 
 	return (
-		<footer className='border-very-washed border-t border-solid'>
+		<footer className='border-very-washed border-t border-solid bg-washed'>
 			<Container>
-				<div className='py-8 text-gray-300 flex justify-between items-center'>
+				<div className={classNames(
+					'py-8 text-gray-300 flex justify-between items-center',
+					'flex-col-reverse lg:flex-row gap-6 text-center lg:text-left'
+				)}>
 					<div>
 						<div>
 							{t('footer.handcrafted_by')} - <a href='https://dokurno.dev' className='styled-link'>MrBartusek</a> {' '}
@@ -18,15 +23,7 @@ function Footer() {
 							Bartosz Dokurno © {new Date().getFullYear()}
 						</div>
 					</div>
-					<div>
-						<a href="https://github.com/MrBartusek" target='blank' className='underline'>GitHub</a>
-						{' • '}
-						<a href="https://www.linkedin.com/in/bartosz-dokurno/" target='blank' className='underline'>Linkedin</a>
-						{' • '}
-						<a href="https://discordapp.com/users/212988300137463809" target='blank' className='underline'>Discord</a>
-						{' • '}
-						<a href="mailto:bartosz@dokurno.dev" target='blank' className='underline'>E-Mail</a>
-					</div>
+					<SocialButtonDrawer />
 				</div>
 			</Container>
 		</footer>
