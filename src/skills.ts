@@ -29,6 +29,7 @@ export const SKILLS: SkillsList = {
 	other: [
 		'Git/GitHub',
 		'Docker',
+		'Python',
 		'Visual Studio Code',
 		'Amazon Web Services (AWS)',
 		'Google Analytics',
