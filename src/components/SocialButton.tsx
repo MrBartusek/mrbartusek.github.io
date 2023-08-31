@@ -24,7 +24,7 @@ function SocialButton(props: SocialButtonProps) {
 				'items-center transition-colors rounded-full shadow-md'
 			)}>
 			<div>
-				<img src={props.iconSrc} alt={`${props.name} icon`} role='none' width={22} height={22} />
+				<img src={props.iconSrc} alt={`${props.name} icon`} aria-hidden="true" width={22} height={22} />
 			</div>
 		</a>
 	);

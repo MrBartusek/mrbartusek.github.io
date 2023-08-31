@@ -18,7 +18,7 @@ function LinkButton(props: ButtonProps) {
 		>
 			{props.iconSrc ? (
 				<div>
-					<img src={props.iconSrc} alt='icon' role='none' width={19} height={19} />
+					<img src={props.iconSrc} alt='icon' aria-hidden="true" width={19} height={19} />
 				</div>
 			): null}
 

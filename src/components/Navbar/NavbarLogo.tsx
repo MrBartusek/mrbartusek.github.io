@@ -4,7 +4,7 @@ function NavbarLogo() {
 			<div className='font-bold text-2xl uppercase'>
                 dokurno.dev
 			</div>
-			<div role="none" className='bg-primary w-14 h-2' />
+			<div aria-hidden="true" className='bg-primary w-14 h-2' />
 		</div>
 	);
 }
