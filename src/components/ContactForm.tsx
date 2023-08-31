@@ -44,6 +44,10 @@ function ContactForm() {
 					rows={8}
 					maxLength={4000}
 				/>
+
+				{ /* Honeypot */}
+				<input type="hidden" name="ejpzmytb" />
+
 				<div className='flex justify-end mt-8'>
 					<Button type='submit'>{t('contact.submit')}</Button>
 				</div>
