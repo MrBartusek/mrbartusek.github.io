@@ -24,7 +24,7 @@ function ProjectCard({ title, description, subTitle, demoLink, codeLink, homeAss
 				height={720}
 
 				className={classNames(
-					'object-cover shadow-lg max-w-[45%]  lg:block hidden',
+					'object-cover shadow-lg max-w-[43%] max-h-96  lg:block hidden',
 					'border border-very-washed rounded-xl'
 				)}
 			/>
