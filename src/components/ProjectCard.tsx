@@ -14,20 +14,26 @@ export interface ProjectCardProps {
 function ProjectCard({ title, description, subTitle, demoLink, codeLink, homeAssistantForumLink, imageSrc }: ProjectCardProps) {
 	return (
 		<div className={classNames('flex gap-8 flex-row')}>
-			<img
-				src={imageSrc}
-				alt={`${title} - project image`}
-				loading="lazy"
-
-				/* This doesn't really matter here since images are displayed as cover */
-				width={1200}
-				height={720}
-
+			<a
+				href={demoLink || codeLink}
+				target='_blank'
 				className={classNames(
-					'object-cover shadow-lg max-w-[43%] max-h-96  lg:block hidden',
+					'shadow-lg max-w-[43%] max-h-96 lg:block hidden',
 					'border border-very-washed rounded-xl'
 				)}
-			/>
+			>
+				<img
+					src={imageSrc}
+					alt={`${title} - project image`}
+					loading="lazy"
+
+					/* This doesn't really matter here since images are displayed as cover */
+					width={1200}
+					height={720}
+
+					className='object-cover h-full w-full rounded-xl hover:shadow-2xl hover:opacity-80'
+				/>
+			</a>
 			<div
 				className={classNames(
 					'bg-washed rounded-xl flex flex-1',
