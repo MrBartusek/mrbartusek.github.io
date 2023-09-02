@@ -1,6 +1,7 @@
 import { Trans, useTranslation } from 'react-i18next';
 import Section from './Section';
 import SocialChipsDrawer from './SocialChipsDrawer';
+import classNames from 'classnames';
 
 function HeroSection() {
 	const { t } = useTranslation();
@@ -23,7 +24,10 @@ function HeroSection() {
 
 	return (
 		<Section id="hero">
-			<div className='flex xl:gap-48 lg:gap-16 lg:text-left text-center lg:pt-32 lg:pb-14 pt-12'>
+			<div className={classNames(
+				'flex xl:gap-48 lg:gap-24 lg:text-left text-center  items-center',
+				'lg:h-[75vh] lg:my-0 my-24'
+			)}>
 				<div className='flex-1 flex flex-col justify-center'>
 					<h1 className='sm:text-4xl text-3xl text-gray-200 font-semibold mb-8'>
 						{t('hero.hello')} {''}
@@ -46,7 +50,7 @@ function HeroSection() {
 				</div>
 				<div>
 					<img
-						className='rounded-2xl max-h-80 lg:block hidden shadow-2xl'
+						className='rounded-2xl xl:max-h-80 max-h-72 lg:block hidden shadow-2xl mb-24 w-auto'
 						alt='profile picture'
 						width={320} height={320}
 						src='avatar.webp'
