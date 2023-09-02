@@ -10,32 +10,33 @@ export const SKILLS: SkillsList = {
 		'HTML / CSS / JS',
 		'TypeScript',
 		'React',
-		'jQuery',
 		'TailwindCSS',
 		'Sass / PostCSS',
 		'Bootstrap',
+		'Electron.js',
 		'Responsive Web Design',
-		'Electron.js'
+		'jQuery'
 	],
 	backend: [
 		'Node.js',
 		'TypeScript',
 		'Express.js',
+		'PostgreSQL',
+		'Redis',
 		'RESTful APIs',
 		'Websockets',
-		'PostgreSQL',
-		'JWT (JSON Web Tokens)',
-		'Redis'
+		'JWT (JSON Web Tokens)'
 	],
 	other: [
 		'Git/GitHub',
 		'Docker',
-		'Python',
+		'Github Actions (CI/CD)',
 		'Visual Studio Code',
 		'Amazon Web Services (AWS)',
-		'Google Analytics',
+		'Terraform',
+		'npm',
+		'Python',
 		'Open Source Development',
-		'Github Actions (CI/CD)',
-		'Terraform'
+		'Google Analytics'
 	]
 };
