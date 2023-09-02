@@ -16,10 +16,10 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<main>
+			<main className='pb-24'>
 				<HeroSection />
-				<ProjectsSection />
 				<SkillSection />
+				<ProjectsSection />
 				<ContactSection />
 			</main>
 			<Footer />

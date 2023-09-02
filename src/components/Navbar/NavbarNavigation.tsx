@@ -6,8 +6,8 @@ function NavbarNavigation() {
 
 	return (
 		<nav className='gap-6 sm:flex hidden'>
-			<NavbarLink elementId="projects">{t('sections.projects.subtitle')}</NavbarLink>
 			<NavbarLink elementId="skills">{t('sections.skills.subtitle')}</NavbarLink>
+			<NavbarLink elementId="projects">{t('sections.projects.subtitle')}</NavbarLink>
 			<NavbarLink elementId="contact">{t('sections.contact.subtitle')}</NavbarLink>
 		</nav>
 	);
