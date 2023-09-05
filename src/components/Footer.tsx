@@ -17,7 +17,7 @@ function Footer() {
 						<div>
 							{t('footer.handcrafted_by')} - <a href='https://dokurno.dev' className='styled-link'>MrBartusek</a> {' '}
 							{t('footer.with')} <a href='https://react.dev/' target='_blank' className='styled-link'>React</a> & {' '}
-							<a href='https://tailwindcss.com/' target='_blank' className='styled-link'>TailwindCSS</a>
+							<a href='https://tailwindcss.com/' target='_blank' className='styled-link'>Tailwind CSS</a>
 						</div>
 						<div className='pt-2'>
 							Bartosz Dokurno © {new Date().getFullYear()}

@@ -10,7 +10,7 @@ export const SKILLS: SkillsList = {
 		'HTML / CSS / JS',
 		'TypeScript',
 		'React',
-		'TailwindCSS',
+		'Tailwind CSS',
 		'Sass / PostCSS',
 		'Bootstrap',
 		'Electron.js',
@@ -30,7 +30,7 @@ export const SKILLS: SkillsList = {
 	other: [
 		'Git/GitHub',
 		'Docker',
-		'Github Actions (CI/CD)',
+		'GitHub Actions (CI/CD)',
 		'Visual Studio Code',
 		'Amazon Web Services (AWS)',
 		'Terraform',

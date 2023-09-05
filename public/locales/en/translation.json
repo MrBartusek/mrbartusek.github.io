@@ -50,7 +50,7 @@
     },
     "contact": {
         "name": "Name",
-        "email": "Email address",
+        "email": "E-mail address",
         "message": "Message",
         "submit": "Submit",
         "via-email": "Or reach me via email"

@@ -21,7 +21,7 @@
         "description": "Znany online bardziej jako <username>MrBartusek</username>. Jestem Full-Stack\u00A0Developerem z\u00A0pasją i\u00A0doświadczeniem w\u00A0budowaniu stron\u00A0oraz aplikacji\u00A0internetowych. Często wspieram projekty open-source, a także utrzymuje kilka z nich, przykładowo <meteoalarmUrl>MeteoalarmCard</meteoalarmUrl>. Aktualnie staram dowiedzieć się więcej o tworzeniu serwisów internetowych, jestem także studentem <universityUrl>Uniwersytetu Łódzkiego</universityUrl>."
     },
     "projects": {
-        "more": "Możesz znaleść więcej moich projektów na moim GitHubie.",
+        "more": "Możesz znaleźć więcej moich projektów na moim GitHubie.",
         "dokchat": {
             "name": "DokChat",
             "subtitle": "Serwis internetowy",
@@ -50,7 +50,7 @@
     },
     "contact": {
         "name": "Imię",
-        "email": "Adres Email",
+        "email": "Adres e-mail",
         "message": "Wiadomość",
         "submit": "Wyślij",
         "via-email": "Lub napisz do mnie email"
