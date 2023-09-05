@@ -35,7 +35,7 @@
         "meteoalarm-card": {
             "name": "MeteoalarmCard",
             "subtitle": "Home Assistant",
-            "description": "MeteoalarmCard to zaawansowana, niestandardowa karta wyświetlająca ostrzeżenia meteorologicznych dla systemu automatyzacji Home Assistant. Obsługuje większość wbudowanych i niestandardowych integracji pogodowych."
+            "description": "MeteoalarmCard to zaawansowana, niestandardowa karta wyświetlająca ostrzeżenia meteorologiczne dla systemu automatyzacji Home Assistant. Obsługuje większość wbudowanych i niestandardowych integracji pogodowych."
         },
         "clash-calendar": {
             "name": "ClashCalendar",
@@ -53,7 +53,7 @@
         "email": "Adres e-mail",
         "message": "Wiadomość",
         "submit": "Wyślij",
-        "via-email": "Lub napisz do mnie email"
+        "via-email": "Lub napisz do mnie e-mail"
     },
     "footer": {
         "handcrafted_by": "Stworzone przeze mnie",
