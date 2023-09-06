@@ -49,7 +49,7 @@ function ContactForm() {
 				<input type="hidden" name="ejpzmytb" />
 
 				<div className='flex flex-col-reverse md:flex-row gap-5 justify-between items-center mt-8'>
-					<div className='text-gray-400'>
+					<div className='text-gray-400 text-center md:text-left'>
 						{t('contact.via-email')}:{' '}
 						<a href='mailto:bartosz@dokurno.dev' className='underline'>
 							bartosz@dokurno.dev

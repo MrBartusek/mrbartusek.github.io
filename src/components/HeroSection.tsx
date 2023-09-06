@@ -25,8 +25,8 @@ function HeroSection() {
 	return (
 		<Section id="hero">
 			<div className={classNames(
-				'flex xl:gap-48 lg:gap-24 lg:text-left text-center  items-center',
-				'lg:h-[75vh] lg:my-0 my-24'
+				'flex xl:gap-48 lg:gap-24 lg:text-left text-center items-center',
+				'lg:h-[75vh]'
 			)}>
 				<div className='flex-1 flex flex-col justify-center'>
 					<h1 className='sm:text-4xl text-3xl text-gray-200 font-semibold mb-8'>

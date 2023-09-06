@@ -3,7 +3,7 @@ import SocialChip from './SocialChip';
 
 function SocialChipsDrawer() {
 	return (
-		<div className='flex flex-wrap gap-3 my-12 lg:justify-start justify-center'>
+		<div className='flex flex-wrap gap-3 mt-12 lg:justify-start justify-center'>
 			{SOCIAL_PLATFORMS.map((platform, i) => {
 				return (
 					<SocialChip
