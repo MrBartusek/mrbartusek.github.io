@@ -50,7 +50,7 @@ function HeroSection() {
 				</div>
 				<div>
 					<img
-						className='rounded-2xl xl:max-h-80 max-h-72 lg:block hidden shadow-2xl mb-24 w-auto'
+						className='rounded-2xl xl:max-h-80 max-h-72 lg:block hidden shadow-2xl mb-8 w-auto'
 						alt='profile picture'
 						width={320} height={320}
 						src='avatar.webp'
