@@ -6,22 +6,6 @@ import classNames from 'classnames';
 function HeroSection() {
 	const { t } = useTranslation();
 
-	const universityUrl = (
-		<a
-			href="https://www.uni.lodz.pl"
-			className='styled-link'
-			target='_blank'
-		/>
-	);
-
-	const meteoAlarmUrl = (
-		<a
-			href="https://github.com/MrBartusek/MeteoalarmCard"
-			className='styled-link'
-			target='_blank'
-		/>
-	);
-
 	return (
 		<Section id="hero">
 			<div className={classNames(
@@ -40,10 +24,7 @@ function HeroSection() {
 							i18nKey={'hero.description'}
 							t={t}
 							components={{
-								username: ( <code className='text-gray-300' /> ),
-								meteoalarmUrl: meteoAlarmUrl,
-								universityUrl
-							}}
+								username: ( <code className='text-gray-300' /> )}}
 						/>
 					</p>
 					<SocialChipsDrawer />
