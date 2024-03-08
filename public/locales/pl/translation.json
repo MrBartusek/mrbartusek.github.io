@@ -24,7 +24,7 @@
         "more": "Możesz znaleźć więcej moich projektów na moim GitHubie.",
         "dokchat": {
             "name": "DokChat",
-            "subtitle": "Serwis internetowy",
+            "subtitle": "Komunikator",
             "description": "DokChat to zaawansowany komunikator internetowy. Służy do wysyłania wiadomości, zdjęć, filmów, GIFów i innych plików. Posiada system dostosowywania profili użytkowników i kolorów czatów grupowych. Posiada także aplikacje desktopową - DokChat Desktop."
         },
         "gif-picker-react": {
@@ -32,15 +32,10 @@
             "subtitle": "Biblioteka",
             "description": "gif-picker-react to biblioteka dla Reacta dodająca panel wybierania GIFów, który umożliwia wyszukiwanie i przeglądanie popularnych kategorii w serwisie Tenor."
         },
-        "meteoalarm-card": {
-            "name": "MeteoalarmCard",
-            "subtitle": "Home Assistant",
-            "description": "MeteoalarmCard to zaawansowana, niestandardowa karta wyświetlająca ostrzeżenia meteorologiczne dla systemu automatyzacji Home Assistant. Obsługuje większość wbudowanych i niestandardowych integracji pogodowych."
-        },
-        "clash-calendar": {
-            "name": "ClashCalendar",
-            "subtitle": "Strona internetowa",
-            "description": "Clash Calendar to łatwa w użyciu witryna internetowa, która integruje turnieje Clash w League Of Legends z Kalendarzem Google. Dzięki niej możesz wybrać kalendarz dla dowolnego regionu i dowolnego poziomu gry. Ten kalendarz będzie aktualizowany z obecnymi i przyszłymi turniejami."
+        "stocked-up": {
+            "name": "StockedUp",
+            "subtitle": "System Zarządzania Inwentarzem",
+            "description": "StockedUp to kompletny system zarządzania inwentarzem, który koncentruje się na zarządzaniu zapasami w dużych organizacjach. Dzięki StockedUp, możesz zarządzać ogromnymi ilościami zapasów bez wysiłku."
         }
     },
     "skills": {
