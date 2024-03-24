@@ -3,14 +3,13 @@ import SocialChip from './SocialChip';
 
 function SocialChipsDrawer() {
 	return (
-		<div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
+		<div className="mt-12 flex flex-wrap justify-center gap-5 lg:justify-start">
 			{SOCIAL_PLATFORMS.map((platform, i) => {
 				return (
 					<SocialChip
 						name={platform.name}
-						displayName={platform.displayName}
-						iconSrc={platform.icon}
-						href={platform.url}
+						icon={platform.icon}
+						url={platform.url}
 						key={i}
 					/>
 				);

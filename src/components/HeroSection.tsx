@@ -15,7 +15,7 @@ function HeroSection() {
 			<div
 				className={classNames(
 					'flex items-center text-center lg:gap-24 lg:text-left xl:gap-48',
-					'lg:h-[calc(100vh-88px)]',
+					'h-[calc(75vh-88px)] lg:h-[calc(100vh-88px)]',
 				)}
 			>
 				<div className="flex flex-1 flex-col justify-center">
