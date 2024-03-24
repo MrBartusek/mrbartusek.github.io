@@ -7,17 +7,21 @@ function HeroSection() {
 	const { t } = useTranslation();
 
 	return (
-		<Section id="hero">
+		<Section
+			id="hero"
+			className="text-light bg-dark"
+			disablePadding
+		>
 			<div
 				className={classNames(
 					'flex items-center text-center lg:gap-24 lg:text-left xl:gap-48',
-					'lg:h-[75vh]',
+					'lg:h-[calc(100vh-88px)]',
 				)}
 			>
 				<div className="flex flex-1 flex-col justify-center">
-					<h1 className="mb-8 text-3xl font-semibold text-gray-200 sm:text-4xl">
-						{t('hero.hello')} {''}
-						<span className="text-primary">Bartosz&nbsp;Dokurno</span>
+					<h1 className="mb-8 flex flex-col gap-2 text-3xl sm:gap-3 sm:text-5xl">
+						<span className="font-semibold text-gray-200">{t('hero.hello')}</span>
+						<span className="font-semibold text-primary">Bartosz&nbsp;Dokurno</span>
 					</h1>
 					<p className="text-md leading-6 sm:text-xl sm:leading-8">
 						<Trans

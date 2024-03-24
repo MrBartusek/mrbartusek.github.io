@@ -5,7 +5,7 @@ import NavbarNavigation from './NavbarNavigation';
 
 function Navbar() {
 	return (
-		<header>
+		<header className="text-light bg-dark">
 			<Container>
 				<div className="flex justify-between py-6">
 					<NavbarLogo />

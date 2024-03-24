@@ -7,11 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        dark: '#161e27',
-        washed: '#1b242e',
-        'very-washed': '#252e37',
         primary: '#2563eb',
-        'primary-hover': '#0052ce'
+        'primary-hover': '#0052ce',
+        dark: '#182029',
+        light: '#f9fafb'
       }
     },
   },

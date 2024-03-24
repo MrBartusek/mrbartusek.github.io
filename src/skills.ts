@@ -1,8 +1,7 @@
-
 export interface SkillsList {
-    frontend: string[];
-    backend: string[];
-    other: string[];
+	frontend: string[];
+	backend: string[];
+	other: string[];
 }
 
 export const SKILLS: SkillsList = {
@@ -15,7 +14,7 @@ export const SKILLS: SkillsList = {
 		'Bootstrap',
 		'Electron.js',
 		'Responsive Web Design',
-		'jQuery'
+		'jQuery',
 	],
 	backend: [
 		'Node.js',
@@ -27,7 +26,7 @@ export const SKILLS: SkillsList = {
 		'Redis',
 		'RESTful APIs',
 		'Websockets',
-		'JWT (JSON Web Tokens)'
+		'JWT (JSON Web Tokens)',
 	],
 	other: [
 		'Git/GitHub',
@@ -39,6 +38,6 @@ export const SKILLS: SkillsList = {
 		'npm',
 		'Python',
 		'Open Source Development',
-		'Google Analytics'
-	]
+		'Google Analytics',
+	],
 };

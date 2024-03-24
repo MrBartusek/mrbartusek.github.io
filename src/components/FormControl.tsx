@@ -20,9 +20,9 @@ function FormControl(props: FormControlPropsType) {
 	const element = React.createElement(props.as || 'input', {
 		...props,
 		className: classNames(
-			'block w-full px-2.5 py-2 bg-very-washed border border-washed',
-			'rounded-md focus:border-primary focus:shadow-sm shadow-primary',
-			'border-opacity-30 mt-1.5 mb-4 text-lg transition-shadow',
+			'block w-full px-3 py-2.5 bg-gray-100 border-none',
+			'rounded-xl focus:border-primary focus:shadow-sm shadow-primary',
+			'mt-1.5 mb-4 text-lg transition-shadow',
 			props.className,
 		),
 	});
@@ -30,7 +30,7 @@ function FormControl(props: FormControlPropsType) {
 		<div className="flex-1">
 			<label
 				htmlFor={props.id}
-				className="ms-1 text-lg text-slate-300"
+				className="ms-1 text-lg "
 			>
 				{props.label || 'Unknown field'}:
 			</label>

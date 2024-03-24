@@ -7,7 +7,7 @@ function Footer() {
 	const { t } = useTranslation();
 
 	return (
-		<footer className="border-t border-solid border-very-washed bg-washed">
+		<footer className="text-light border-t border-black bg-dark">
 			<Container>
 				<div
 					className={classNames(

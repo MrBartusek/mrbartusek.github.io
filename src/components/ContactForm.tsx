@@ -52,7 +52,7 @@ function ContactForm() {
 				/>
 
 				<div className="mt-8 flex flex-col-reverse items-center justify-between gap-5 md:flex-row">
-					<div className="text-center text-gray-400 md:text-left">
+					<div className="text-center  md:text-left">
 						{t('contact.via-email')}:{' '}
 						<a
 							href="mailto:bartosz@dokurno.dev"
