@@ -3,7 +3,10 @@ import { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
 import './Button.css';
 
 export interface ButtonProps
-	extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {}
+	extends DetailedHTMLProps<
+		ButtonHTMLAttributes<HTMLButtonElement>,
+		HTMLButtonElement
+	> {}
 
 function Button(props: ButtonProps) {
 	return (

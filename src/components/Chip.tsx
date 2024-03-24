@@ -7,14 +7,14 @@ export interface ChipProps {
 
 function Chip({ children }: ChipProps) {
 	return (
-		<div
+		<span
 			className={classNames(
 				'text-light rounded-sm bg-dark px-2 py-1.5',
 				'text-sm font-semibold',
 			)}
 		>
 			{children}
-		</div>
+		</span>
 	);
 }
 

@@ -2,6 +2,7 @@ import { Trans, useTranslation } from 'react-i18next';
 import Section from './Section';
 import SocialChipsDrawer from './SocialChipsDrawer';
 import classNames from 'classnames';
+import { FaChevronDown } from 'react-icons/fa';
 
 function HeroSection() {
 	const { t } = useTranslation();
