@@ -6,6 +6,7 @@ import Footer from './Footer';
 import HeroSection from './HeroSection';
 import Navbar from './Navbar/Navbar';
 import AboutMeSection from './AboutMeSection';
+import ProjectsSection from './ProjectsSection';
 
 function App() {
 	useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
 			<main className="pb-24">
 				<HeroSection />
 				<AboutMeSection />
+				<ProjectsSection />
 				<ContactSection />
 			</main>
 			<Footer />

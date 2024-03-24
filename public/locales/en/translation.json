@@ -1,11 +1,13 @@
 {
-    "common": {
-        "demo": "Live Demo"
+    "navigation": {
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
     },
     "sections": {
-        "projects": "Projects",
+        "projects": "My Projects",
         "skills": "My Skills",
-        "contact": "Contact"
+        "contact": "Let's get in touch"
     },
     "hero": {
         "hello": "Hey! I'm",

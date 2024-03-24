@@ -8,9 +8,7 @@ function ContactSection() {
 
 	return (
 		<Section id="contact">
-			<SectionHeading subTitle={t('sections.contact.subtitle')}>
-				{t('sections.contact.title')}
-			</SectionHeading>
+			<SectionHeading>{t('sections.contact')}</SectionHeading>
 			<ContactForm />
 		</Section>
 	);

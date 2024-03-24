@@ -1,10 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
-import { SKILLS } from '../skills';
-import Chip from './Chip';
 import SkillsDrawer from './SkillsDrawer';
-import classNames from 'classnames/bind';
 
 function AboutMeSection() {
 	const { t } = useTranslation();
