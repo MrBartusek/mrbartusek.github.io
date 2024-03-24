@@ -4,23 +4,30 @@ import { AnchorHTMLAttributes, DetailedHTMLProps } from 'react';
 type LinkProps = DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>;
 
 export interface SocialButtonProps extends LinkProps {
-    name: string;
-    iconSrc: string;
-    href: string;
+	name: string;
+	iconSrc: string;
+	href: string;
 }
 
-function SocialButton({href, iconSrc, name, ...props}: SocialButtonProps) {
+function SocialButton({ href, iconSrc, name, ...props }: SocialButtonProps) {
 	return (
 		<a
 			{...props}
 			href={href}
-			target='_blank'
+			target="_blank"
 			className={classNames(
-				'bg-very-washed hover:bg-slate-700 p-3.5',
-				'items-center transition-colors rounded-full shadow-md'
-			)}>
+				'bg-very-washed p-3.5 hover:bg-slate-700',
+				'items-center rounded-full shadow-md transition-colors',
+			)}
+		>
 			<div>
-				<img src={iconSrc} alt={`${name} icon`} aria-hidden="true" width={22} height={22} />
+				<img
+					src={iconSrc}
+					alt={`${name} icon`}
+					aria-hidden="true"
+					width={22}
+					height={22}
+				/>
 			</div>
 		</a>
 	);

@@ -9,14 +9,13 @@ import ProjectsSection from './ProjectsSection';
 import SkillSection from './SkillSection';
 
 function App() {
-
 	useEffect(() => {
 		ReactGA.initialize('G-V1LQFM1HD7');
-	}, [ ]);
+	}, []);
 	return (
 		<>
 			<Navbar />
-			<main className='pb-24'>
+			<main className="pb-24">
 				<HeroSection />
 				<SkillSection />
 				<ProjectsSection />

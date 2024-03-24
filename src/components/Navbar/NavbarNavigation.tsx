@@ -5,7 +5,7 @@ function NavbarNavigation() {
 	const { t } = useTranslation();
 
 	return (
-		<nav className='gap-6 sm:flex hidden'>
+		<nav className="hidden gap-6 sm:flex">
 			<NavbarLink elementId="skills">{t('sections.skills.subtitle')}</NavbarLink>
 			<NavbarLink elementId="projects">{t('sections.projects.subtitle')}</NavbarLink>
 			<NavbarLink elementId="contact">{t('sections.contact.subtitle')}</NavbarLink>

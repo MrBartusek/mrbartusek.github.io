@@ -7,9 +7,9 @@ function Navbar() {
 	return (
 		<header>
 			<Container>
-				<div className='flex py-6 justify-between'>
+				<div className="flex justify-between py-6">
 					<NavbarLogo />
-					<div className='flex flex-row items-center'>
+					<div className="flex flex-row items-center">
 						<NavbarNavigation />
 						<LanguageSelector />
 					</div>

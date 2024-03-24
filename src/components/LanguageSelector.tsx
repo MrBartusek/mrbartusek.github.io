@@ -2,7 +2,7 @@ import { useState } from 'react';
 import i18n, { SUPPORTED_LANGUAGES } from '../i18n';
 
 function LanguageSelector() {
-	const [ language, setLanguage ] = useState(i18n.language);
+	const [language, setLanguage] = useState(i18n.language);
 
 	function handleClick() {
 		i18n.changeLanguage(getNextLanguage()).catch(console.error);
@@ -16,8 +16,11 @@ function LanguageSelector() {
 	}
 
 	return (
-		<button className='hover:underline border-l ml-5 pl-5 border-slate-600' onClick={handleClick}>
-			{ getNextLanguage().toUpperCase() }
+		<button
+			className="ml-5 border-l border-slate-600 pl-5 hover:underline"
+			onClick={handleClick}
+		>
+			{getNextLanguage().toUpperCase()}
 		</button>
 	);
 }

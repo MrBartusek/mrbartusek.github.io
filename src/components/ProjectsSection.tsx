@@ -12,7 +12,7 @@ function ProjectsSection() {
 			<SectionHeading subTitle={t('sections.projects.subtitle')}>
 				{t('sections.projects.title')}
 			</SectionHeading>
-			<ProjectsList className='pt-12' />
+			<ProjectsList className="pt-12" />
 			<MoreProjects />
 		</Section>
 	);

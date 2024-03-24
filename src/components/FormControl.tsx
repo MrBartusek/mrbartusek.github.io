@@ -1,14 +1,15 @@
 import classNames from 'classnames';
 import React, { InputHTMLAttributes, TextareaHTMLAttributes } from 'react';
 
-type FormControlProps<T extends 'input' | 'textarea'> =
-    T extends 'input' ? InputHTMLAttributes<HTMLInputElement> :
-    T extends 'textarea' ? TextareaHTMLAttributes<HTMLTextAreaElement> :
-    never;
+type FormControlProps<T extends 'input' | 'textarea'> = T extends 'input'
+	? InputHTMLAttributes<HTMLInputElement>
+	: T extends 'textarea'
+		? TextareaHTMLAttributes<HTMLTextAreaElement>
+		: never;
 
 interface FormControlBaseProps<T extends 'input' | 'textarea'> {
-    label: string;
-    as: T;
+	label: string;
+	as: T;
 }
 
 type FormControlInputProps = FormControlBaseProps<'input'> & FormControlProps<'input'>;
@@ -21,14 +22,15 @@ function FormControl(props: FormControlPropsType) {
 		className: classNames(
 			'block w-full px-2.5 py-2 bg-very-washed border border-washed',
 			'rounded-md focus:border-primary focus:shadow-sm shadow-primary',
-			'border-opacity-30 mt-1.5 mb-4 text-lg transition-shadow', props.className
-		)
+			'border-opacity-30 mt-1.5 mb-4 text-lg transition-shadow',
+			props.className,
+		),
 	});
 	return (
-		<div className='flex-1'>
+		<div className="flex-1">
 			<label
 				htmlFor={props.id}
-				className='ms-1 text-slate-300 text-lg'
+				className="ms-1 text-lg text-slate-300"
 			>
 				{props.label || 'Unknown field'}:
 			</label>

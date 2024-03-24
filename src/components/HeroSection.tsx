@@ -8,33 +8,35 @@ function HeroSection() {
 
 	return (
 		<Section id="hero">
-			<div className={classNames(
-				'flex xl:gap-48 lg:gap-24 lg:text-left text-center items-center',
-				'lg:h-[75vh]'
-			)}>
-				<div className='flex-1 flex flex-col justify-center'>
-					<h1 className='sm:text-4xl text-3xl text-gray-200 font-semibold mb-8'>
+			<div
+				className={classNames(
+					'flex items-center text-center lg:gap-24 lg:text-left xl:gap-48',
+					'lg:h-[75vh]',
+				)}
+			>
+				<div className="flex flex-1 flex-col justify-center">
+					<h1 className="mb-8 text-3xl font-semibold text-gray-200 sm:text-4xl">
 						{t('hero.hello')} {''}
-						<span className='text-primary'>
-							Bartosz&nbsp;Dokurno
-						</span>
+						<span className="text-primary">Bartosz&nbsp;Dokurno</span>
 					</h1>
-					<p className='sm:text-xl text-md sm:leading-8 leading-6'>
+					<p className="text-md leading-6 sm:text-xl sm:leading-8">
 						<Trans
 							i18nKey={'hero.description'}
 							t={t}
 							components={{
-								username: ( <code className='text-gray-300' /> )}}
+								username: <code className="text-gray-300" />,
+							}}
 						/>
 					</p>
 					<SocialChipsDrawer />
 				</div>
 				<div>
 					<img
-						className='rounded-2xl xl:max-h-80 max-h-72 lg:block hidden shadow-2xl mb-8 w-auto'
-						alt='profile picture'
-						width={320} height={320}
-						src='avatar.webp'
+						className="mb-8 hidden max-h-72 w-auto rounded-2xl shadow-2xl lg:block xl:max-h-80"
+						alt="profile picture"
+						width={320}
+						height={320}
+						src="avatar.webp"
 					/>
 				</div>
 			</div>

@@ -1,20 +1,20 @@
 import { useTranslation } from 'react-i18next';
 import GithubIcon from '../assets/github-logo.svg';
-import RedirectIcon from '../assets/redirect.svg';
 import HomeAssistantIcons from '../assets/home-assistant.svg';
+import RedirectIcon from '../assets/redirect.svg';
 import Button from './LinkButton';
 
 export interface ProjectLinksProps {
-    demoLink?: string,
-    codeLink?: string,
-    homeAssistantForumLink?: string
+	demoLink?: string;
+	codeLink?: string;
+	homeAssistantForumLink?: string;
 }
 
 function ProjectLinks({ demoLink, codeLink, homeAssistantForumLink }: ProjectLinksProps) {
 	const { t } = useTranslation();
 
 	return (
-		<div className='flex flex-wrap justify-center gap-4 mt-10'>
+		<div className="mt-10 flex flex-wrap justify-center gap-4">
 			{demoLink ? (
 				<Button
 					href={demoLink}
@@ -22,24 +22,24 @@ function ProjectLinks({ demoLink, codeLink, homeAssistantForumLink }: ProjectLin
 				>
 					{t('common.demo')}
 				</Button>
-			): null}
+			) : null}
 			{homeAssistantForumLink ? (
 				<Button
 					href={homeAssistantForumLink}
 					iconSrc={HomeAssistantIcons}
 				>
-                    Forum
+					Forum
 				</Button>
-			): null}
+			) : null}
 			{codeLink ? (
 				<Button
 					href={codeLink}
 					iconSrc={GithubIcon}
-					className='bg-slate-600 hover:bg-slate-700'
+					className="bg-slate-600 hover:bg-slate-700"
 				>
-                    GitHub
+					GitHub
 				</Button>
-			): null}
+			) : null}
 		</div>
 	);
 }

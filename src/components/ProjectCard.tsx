@@ -2,55 +2,56 @@ import classNames from 'classnames';
 import ProjectLinks from './ProjectLinks';
 
 export interface ProjectCardProps {
-    title: string
-	subTitle?: string
-    description?: React.ReactNode | string
-	demoLink?: string
-	codeLink?: string
-	homeAssistantForumLink?: string
+	title: string;
+	subTitle?: string;
+	description?: React.ReactNode | string;
+	demoLink?: string;
+	codeLink?: string;
+	homeAssistantForumLink?: string;
 	imageSrc?: string;
 }
 
-function ProjectCard({ title, description, subTitle, demoLink, codeLink, homeAssistantForumLink, imageSrc }: ProjectCardProps) {
+function ProjectCard({
+	title,
+	description,
+	subTitle,
+	demoLink,
+	codeLink,
+	homeAssistantForumLink,
+	imageSrc,
+}: ProjectCardProps) {
 	return (
-		<div className={classNames('flex gap-8 flex-row')}>
+		<div className={classNames('flex flex-row gap-8')}>
 			<a
 				href={demoLink || codeLink}
-				target='_blank'
+				target="_blank"
 				className={classNames(
-					'shadow-lg max-w-[43%] max-h-96 lg:block hidden',
-					'border border-very-washed rounded-xl'
+					'hidden max-h-96 max-w-[43%] shadow-lg lg:block',
+					'rounded-xl border border-very-washed',
 				)}
+				rel="noreferrer"
 			>
 				<img
 					src={imageSrc}
 					alt={`${title} - project image`}
 					loading="lazy"
-
 					/* This doesn't really matter here since images are displayed as cover */
 					width={1200}
 					height={720}
-
-					className='object-cover h-full w-full rounded-xl hover:shadow-2xl hover:opacity-80'
+					className="h-full w-full rounded-xl object-cover hover:opacity-80 hover:shadow-2xl"
 				/>
 			</a>
 			<div
 				className={classNames(
-					'bg-washed rounded-xl flex flex-1',
-					'shadow-lg border border-very-washed'
+					'flex flex-1 rounded-xl bg-washed',
+					'border border-very-washed shadow-lg',
 				)}
 			>
-				<div className="sm:p-12 p-6 flex flex-1 items-center justify-center">
-					<div className='flex flex-col items-center'>
-						<h3 className='text-2xl text-center font-bold'>
-							{title}
-						</h3>
-						<div className='text-lg text-primary text-center mb-4 font-bold'>
-							{subTitle}
-						</div>
-						<div className='text-center lg:text-left'>
-							{description}
-						</div>
+				<div className="flex flex-1 items-center justify-center p-6 sm:p-12">
+					<div className="flex flex-col items-center">
+						<h3 className="text-center text-2xl font-bold">{title}</h3>
+						<div className="mb-4 text-center text-lg font-bold text-primary">{subTitle}</div>
+						<div className="text-center lg:text-left">{description}</div>
 						<ProjectLinks
 							demoLink={demoLink}
 							codeLink={codeLink}

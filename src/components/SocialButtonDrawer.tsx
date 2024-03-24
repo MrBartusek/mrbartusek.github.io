@@ -3,7 +3,7 @@ import SocialButton from './SocialButton';
 
 function SocialButtonDrawer() {
 	return (
-		<div className='flex flex-wrap gap-3 justify-center'>
+		<div className="flex flex-wrap justify-center gap-3">
 			{SOCIAL_PLATFORMS.map((platform, i) => {
 				return (
 					<SocialButton
