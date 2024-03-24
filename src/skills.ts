@@ -1,43 +1,28 @@
-export interface SkillsList {
-	frontend: string[];
-	backend: string[];
-	other: string[];
+export interface Skill {
+	name: string;
 }
 
-export const SKILLS: SkillsList = {
-	frontend: [
-		'HTML / CSS / JS',
-		'TypeScript',
-		'React',
-		'Tailwind CSS',
-		'Sass / PostCSS',
-		'Bootstrap',
-		'Electron.js',
-		'Responsive Web Design',
-		'jQuery',
-	],
-	backend: [
-		'Node.js',
-		'TypeScript',
-		'Express.js',
-		'Nest.js',
-		'PostgreSQL',
-		'MongoDB & mongoose',
-		'Redis',
-		'RESTful APIs',
-		'Websockets',
-		'JWT (JSON Web Tokens)',
-	],
-	other: [
-		'Git/GitHub',
-		'Docker',
-		'GitHub Actions (CI/CD)',
-		'Visual Studio Code',
-		'Amazon Web Services (AWS)',
-		'Terraform',
-		'npm',
-		'Python',
-		'Open Source Development',
-		'Google Analytics',
-	],
-};
+export const SKILLS: Skill[] = [
+	{ name: 'Javascript' },
+	{ name: 'Typescript' },
+	{ name: 'Node.js' },
+	{ name: 'Express.js' },
+	{ name: 'Nest.js' },
+	{ name: 'PostgreSQL' },
+	{ name: 'MongoDB' },
+	{ name: 'Redis' },
+	{ name: 'AWS' },
+	{ name: 'React' },
+	{ name: 'HTML' },
+	{ name: 'CSS' },
+	{ name: 'Tailwind CSS' },
+	{ name: 'Bootstrap' },
+	{ name: 'Electron.js' },
+	{ name: 'jQuery' },
+	{ name: 'Websocket' },
+	{ name: 'JWT' },
+	{ name: 'Git/GitHub' },
+	{ name: 'Docker' },
+	{ name: 'CI/CD' },
+	{ name: 'Terraform' },
+];

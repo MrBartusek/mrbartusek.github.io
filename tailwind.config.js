@@ -12,7 +12,15 @@ export default {
         dark: '#182029',
         light: '#f9fafb'
       },
-      
+      container: {
+				screens: {
+					sm: '576px',
+					md: '786px',
+					lg: '992px',
+					xl: '1000px',
+					'2xl': '1100px',
+				},
+			},
     },
   },
   plugins: [

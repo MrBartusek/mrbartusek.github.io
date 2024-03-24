@@ -14,18 +14,23 @@ function HeroSection() {
 		>
 			<div
 				className={classNames(
-					'flex items-center text-center lg:gap-24 lg:text-left xl:gap-48',
+					'flex max-w-3xl items-center',
 					'h-[calc(75vh-88px)] lg:h-[calc(100vh-88px)]',
 				)}
 			>
 				<div className="flex flex-1 flex-col justify-center">
-					<h1 className="mb-8 flex flex-col gap-2 text-3xl sm:gap-3 sm:text-5xl">
-						<span className="font-semibold text-gray-200">{t('hero.hello')}</span>
-						<span className="font-semibold text-primary">Bartosz&nbsp;Dokurno</span>
+					<h1 className="mb-12 flex flex-col gap-2 text-3xl sm:gap-3 sm:text-6xl">
+						<span className="font-semibold text-gray-200">
+							{t('hero.hello')}
+						</span>
+						<span className="font-semibold text-primary">
+							Bartosz&nbsp;Dokurno
+						</span>
 					</h1>
-					<p className="text-md leading-6 sm:text-xl sm:leading-8">
+
+					<p className="text-md mb-16 leading-6 sm:text-xl sm:leading-8">
 						<Trans
-							i18nKey={'hero.description'}
+							i18nKey={'hero.about'}
 							t={t}
 							components={{
 								username: <code className="text-gray-300" />,
@@ -33,15 +38,6 @@ function HeroSection() {
 						/>
 					</p>
 					<SocialChipsDrawer />
-				</div>
-				<div>
-					<img
-						className="mb-8 hidden max-h-72 w-auto rounded-2xl shadow-2xl lg:block xl:max-h-80"
-						alt="profile picture"
-						width={320}
-						height={320}
-						src="avatar.webp"
-					/>
 				</div>
 			</div>
 		</Section>

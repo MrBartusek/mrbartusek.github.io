@@ -3,22 +3,13 @@
         "demo": "Live Demo"
     },
     "sections": {
-        "projects": {
-            "title": "Dig into my work",
-            "subtitle": "Projects"
-        },
-        "skills": {
-            "title": "Things I know",
-            "subtitle": "Skills"
-        },
-        "contact": {
-            "title": "Get in touch",
-            "subtitle": "Contact"
-        }
+        "projects": "Projects",
+        "skills": "My Skills",
+        "contact": "Contact"
     },
     "hero": {
         "hello": "Hey! I'm",
-        "description": "Known online as <username>MrBartusek</username>. I'm a Web\u00A0Developer with passion and\u00A0experience for building websites and\u00A0web\u00A0applications. I\u00A0specialize in\u00A0building backend using\u00A0Node.js and\u00A0TypeScript, as\u00A0well\u00A0as, frontend using\u00A0React and TailwindCSS."
+        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nulla in lorem scelerisque ullamcorper. Ut mattis feugiat porttitor. Nunc aliquam finibus luctus."
     },
     "projects": {
         "more": "You can find more of my work at my GitHub profile.",
@@ -37,11 +28,6 @@
             "subtitle": "Inventory Management Service",
             "description": "StockedUp is complete Inventory Management System that focuses on managing stock for large organizations. It makes managing vast amounts of inventory effortless."
         }
-    },
-    "skills": {
-        "frontend": "Front-end",
-        "backend": "Back-end",
-        "other": "Other"
     },
     "contact": {
         "name": "Name",

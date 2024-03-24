@@ -38,7 +38,7 @@ module.exports = {
 				endOfLine: 'auto',
 				useTabs: true,
 				singleQuote: true,
-				printWidth: 100,
+				printWidth: 80,
 				singleAttributePerLine: true,
 			},
 		],
