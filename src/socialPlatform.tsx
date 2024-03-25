@@ -8,7 +8,8 @@ export interface SocialPlatform {
 }
 
 // FIX ME
-export const RESUME_URL = 'https://www.linkedin.com/in/bartosz-dokurno/';
+export const RESUME_URL =
+	'https://drive.google.com/file/d/1Cx72w-of3XTNqX9X1m_4fxlJjg8kI0FS/view?usp=sharing';
 
 export const SOCIAL_PLATFORMS: SocialPlatform[] = [
 	{
