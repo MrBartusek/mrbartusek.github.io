@@ -6,9 +6,9 @@ function ContactForm() {
 	const { t } = useTranslation();
 
 	return (
-		<div className="mt-16 flex justify-center">
+		<div className="my-8 flex justify-center">
 			<form
-				className="w-full max-w-[700px]"
+				className="w-full"
 				action="https://usebasin.com/f/2b9a507cda56"
 				method="POST"
 				encType="multipart/form-data"

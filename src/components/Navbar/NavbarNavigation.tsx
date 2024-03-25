@@ -6,8 +6,8 @@ function NavbarNavigation() {
 
 	return (
 		<nav className="hidden gap-6 sm:flex">
-			<NavbarLink to="about">{t('navigation.about')}</NavbarLink>
-			<NavbarLink elementId="contact">{t('navigation.contact')}</NavbarLink>
+			<NavbarLink to="/about">{t('navigation.about')}</NavbarLink>
+			<NavbarLink to="/contact">{t('navigation.contact')}</NavbarLink>
 		</nav>
 	);
 }
