@@ -6,7 +6,8 @@
         "home": "Home",
         "about": "About",
         "contact": "Contact",
-        "source": "View source"
+        "source": "View source",
+        "resume": "Résumé"
     },
     "sections": {
         "projects": "My Projects",

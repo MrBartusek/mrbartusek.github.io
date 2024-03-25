@@ -6,7 +6,8 @@
         "home": "Strona główna",
         "about": "O mnie",
         "contact": "Kontakt",
-        "source": "Wyświetl źródło"
+        "source": "Wyświetl źródło",
+        "resume": "CV"
     },
     "sections": {
         "projects": "Moje Portfolio",

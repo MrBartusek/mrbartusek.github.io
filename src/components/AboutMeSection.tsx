@@ -11,7 +11,7 @@ function AboutMeSection() {
 		<Section id="skills">
 			<SectionHeading>{t('sections.skills')}</SectionHeading>
 			<div className="flex flex-col gap-8 lg:flex-row">
-				<div className="m-auto flex w-72 flex-shrink-0 items-center">
+				<div className="m-auto flex max-w-72 flex-shrink-0 items-center">
 					<div>
 						<img
 							className="h-auto w-full rounded-xl"

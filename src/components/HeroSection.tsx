@@ -16,14 +16,14 @@ function HeroSection() {
 				className={classNames(
 					'flex max-w-3xl items-center',
 					'h-[calc(75vh-88px)] lg:h-[calc(100vh-88px)]',
-					'px-12 text-center lg:px-0 lg:text-left',
+					'text-center lg:text-left',
 				)}
 			>
 				<div className="flex flex-1 flex-col justify-center">
 					<h1
 						className={classNames(
 							'mb-8 flex flex-col gap-2  md:mb-12 md:gap-3',
-							'text-4xl sm:text-5xl xl:text-6xl',
+							'text-3xl sm:text-5xl xl:text-6xl',
 						)}
 					>
 						<span className="font-semibold text-gray-200">

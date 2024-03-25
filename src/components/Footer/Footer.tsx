@@ -8,7 +8,7 @@ import FooterSocialDrawer from './FooterSocialDrawer';
 function Footer() {
 	return (
 		<FooterContainer className={classNames('flex flex-col gap-6')}>
-			<div className="flex justify-between">
+			<div className="flex flex-col justify-between gap-8 sm:flex-row">
 				<FooterBrand />
 				<FooterNavigation />
 				<FooterSocialDrawer />

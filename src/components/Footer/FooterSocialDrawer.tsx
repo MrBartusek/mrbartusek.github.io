@@ -15,7 +15,7 @@ function FooterSocialDrawer({ className, ...props }: SocialChipsDrawerProps) {
 		<div
 			{...props}
 			className={classNames(
-				'flex flex-wrap items-center justify-center gap-5',
+				'flex flex-wrap items-center gap-5 sm:justify-center',
 				className,
 			)}
 		>
