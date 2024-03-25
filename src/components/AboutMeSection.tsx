@@ -9,8 +9,8 @@ function AboutMeSection() {
 	return (
 		<Section id="skills">
 			<SectionHeading>{t('sections.skills')}</SectionHeading>
-			<div className="flex gap-8">
-				<div className="flex w-72 flex-shrink-0 items-center">
+			<div className="flex flex-col gap-8 lg:flex-row">
+				<div className="m-auto flex w-72 flex-shrink-0 items-center">
 					<div>
 						<img
 							className="h-auto w-full rounded-xl"
@@ -22,8 +22,8 @@ function AboutMeSection() {
 					</div>
 				</div>
 				<div>
-					<SkillsDrawer className="mb-8" />
-					<h3 className="mb-4 text-lg font-bold">{t('about.title')} 💡</h3>
+					<SkillsDrawer className="mb-8 justify-center lg:justify-start" />
+					<h3 className="mb-4 text-xl font-bold">{t('about.title')} 💡</h3>
 					<p className="mb-6 text-lg">{t('about.description')}</p>
 					<a className="text-lg font-bold">Dig deeper into my bio</a>
 				</div>
