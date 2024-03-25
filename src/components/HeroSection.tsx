@@ -1,6 +1,6 @@
 import { Trans, useTranslation } from 'react-i18next';
 import Section from './Section';
-import SocialChipsDrawer from './SocialChipsDrawer';
+import HeroSocialDrawer from './HeroSocialDrawer';
 import classNames from 'classnames';
 import { FaChevronDown } from 'react-icons/fa';
 
@@ -39,7 +39,7 @@ function HeroSection() {
 							}}
 						/>
 					</p>
-					<SocialChipsDrawer />
+					<HeroSocialDrawer />
 				</div>
 			</div>
 		</Section>
