@@ -1,7 +1,0 @@
-#root {
-  margin: 0 auto;
-}
-
-.styled-link {
-  @apply text-blue-400 underline;
-}
