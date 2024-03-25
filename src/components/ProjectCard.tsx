@@ -11,7 +11,9 @@ export interface ProjectCardProps {
 	skills: string[];
 	description: string;
 	url: string;
-	image: string;
+	imageSrc: string;
+	imageWidth?: number;
+	imageHeight?: number;
 }
 
 function ProjectCard({
@@ -19,7 +21,9 @@ function ProjectCard({
 	skills,
 	description,
 	url,
-	image,
+	imageSrc,
+	imageWidth,
+	imageHeight,
 }: ProjectCardProps) {
 	const { t } = useTranslation();
 
@@ -54,8 +58,10 @@ function ProjectCard({
 				>
 					<img
 						className="h-auto w-full rounded-xl"
-						src={image}
+						src={imageSrc}
 						alt={name}
+						width={imageWidth}
+						height={imageHeight}
 					/>
 				</Link>
 			</div>

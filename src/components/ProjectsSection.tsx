@@ -16,15 +16,19 @@ function ProjectsSection() {
 					name={t('projects.stocked-up.name')}
 					skills={['Nest.js', 'React', 'MongoDB', 'Redis', 'AWS']}
 					description={t('projects.stocked-up.description')}
-					image={stockedUpImage}
 					url="https://stockedup.dokurno.dev"
+					imageSrc={stockedUpImage}
+					imageWidth={1365}
+					imageHeight={885}
 				/>
 				<ProjectCard
 					name={t('projects.dokchat.name')}
 					skills={['Express.js', 'React', 'PostgresSQL', 'Websockets', 'AWS']}
 					description={t('projects.dokchat.description')}
-					image={dokchatImage}
 					url="https://dokchat.dokurno.dev"
+					imageSrc={dokchatImage}
+					imageWidth={754}
+					imageHeight={548}
 				/>
 			</div>
 		</Section>
