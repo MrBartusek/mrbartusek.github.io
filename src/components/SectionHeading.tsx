@@ -8,7 +8,7 @@ export interface ProjectsSectionProps {
 function SectionHeading({ children }: ProjectsSectionProps) {
 	return (
 		<div className="mb-12 inline-flex flex-col">
-			<span className="text-4xl font-semibold">{children}</span>
+			<span className="mb-1 text-4xl font-semibold">{children}</span>
 			<UnderlineDecoration />
 		</div>
 	);

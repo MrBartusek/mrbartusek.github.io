@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import { SKILLS } from '../skills';
 import Chip from './Chip';
 import ChipDrawer from './ChipDrawer';
@@ -11,7 +10,12 @@ function SkillsDrawer({ className }: SkillsDrawerProps) {
 	return (
 		<ChipDrawer className={className}>
 			{SKILLS.map((skill, key) => (
-				<Chip key={key}>{skill.name}</Chip>
+				<Chip
+					key={key}
+					variant="medium"
+				>
+					{skill.name}
+				</Chip>
 			))}
 		</ChipDrawer>
 	);

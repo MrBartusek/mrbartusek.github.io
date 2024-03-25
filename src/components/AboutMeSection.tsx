@@ -25,7 +25,7 @@ function AboutMeSection() {
 					<SkillsDrawer className="mb-8" />
 					<h3 className="mb-4 text-lg font-bold">{t('about.title')} 💡</h3>
 					<p className="mb-6 text-lg">{t('about.description')}</p>
-					<a className="text-lg font-bold ">Keep reading my bio</a>
+					<a className="text-lg font-bold ">Dig deeper into my bio</a>
 				</div>
 			</div>
 		</Section>

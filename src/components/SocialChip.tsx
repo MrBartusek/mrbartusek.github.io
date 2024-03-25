@@ -12,7 +12,9 @@ function SocialChip({ name, icon, url }: SocialChipProps) {
 		<a
 			href={url}
 			target="_blank"
-			className={classNames('text-4xl text-primary transition-colors hover:text-gray-400')}
+			className={classNames(
+				'text-4xl text-primary transition-colors hover:text-gray-400',
+			)}
 			rel="noreferrer"
 			title={name}
 		>
