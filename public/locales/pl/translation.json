@@ -29,14 +29,23 @@
         },
         "stocked-up": {
             "name": "StockedUp",
-           "description": "StockedUp to kompletny system zarządzania inwentarzem, który koncentruje się na zarządzaniu zapasami w dużych organizacjach. Dzięki StockedUp, możesz zarządzać ogromnymi ilościami zapasów bez wysiłku."
+            "description": "StockedUp to kompletny system zarządzania inwentarzem, który koncentruje się na zarządzaniu zapasami w dużych organizacjach. Dzięki StockedUp, możesz zarządzać ogromnymi ilościami zapasów bez wysiłku."
         }
     },
     "contact": {
+        "name": {
+            "label": "Imię",
+            "placeholder": "Jan Kowalski"
+        },
+        "email": {
+            "label": "Adres e-mail",
+            "placeholder": "przyklad@gmail.com"
+        },
+        "message": {
+            "label": "Wiadomość",
+            "placeholder": "Wpisz swoją wiadomość tutaj"
+        },
         "button": "Kontakt",
-        "name": "Imię",
-        "email": "Adres e-mail",
-        "message": "Wiadomość",
         "submit": "Wyślij",
         "via-email": "Lub napisz do mnie e-mail"
     },

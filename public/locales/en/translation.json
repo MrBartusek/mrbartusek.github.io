@@ -33,10 +33,19 @@
         }
     },
     "contact": {
+        "name": {
+            "label": "Name",
+            "placeholder": "John Doe"
+        },
+        "email": {
+            "label": "E-mail address",
+            "placeholder": "example@gmail.com"
+        },
+        "message": {
+            "label": "Message",
+            "placeholder": "Type your message here"
+        },
         "button": "Contact me",
-        "name": "Name",
-        "email": "E-mail address",
-        "message": "Message",
         "submit": "Send",
         "via-email": "Or reach me via email"
     },

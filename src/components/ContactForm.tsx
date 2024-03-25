@@ -16,20 +16,22 @@ function ContactForm() {
 				<div className="flex flex-col md:flex-row md:gap-8">
 					<FormControl
 						as="input"
-						label={t('contact.name')}
+						label={t('contact.name.label')}
 						type="text"
 						id="name"
 						name="name"
+						placeholder={t('contact.name.placeholder')}
 						required
 						minLength={2}
 						maxLength={32}
 					/>
 					<FormControl
 						as="input"
-						label={t('contact.email')}
+						label={t('contact.email.label')}
 						type="email"
 						id="email"
 						name="email"
+						placeholder={t('contact.email.placeholder')}
 						required
 						minLength={2}
 						maxLength={32}
@@ -37,9 +39,10 @@ function ContactForm() {
 				</div>
 				<FormControl
 					as="textarea"
-					label={t('contact.message')}
+					label={t('contact.message.label')}
 					id="message"
 					name="message"
+					placeholder={t('contact.message.placeholder')}
 					required
 					rows={8}
 					maxLength={4000}
