@@ -12,8 +12,8 @@ function MoreProjects() {
 	return (
 		<div
 			className={classNames(
-				'flex flex-1 items-center rounded-xl bg-washed text-center text-xl',
-				'flex justify-between border border-very-washed text-gray-300 shadow-lg',
+				'bg-washed flex flex-1 items-center rounded-xl text-center text-xl',
+				'border-very-washed flex justify-between border text-gray-300 shadow-lg',
 				'flex-col gap-8 p-8 sm:p-12 lg:flex-row',
 			)}
 		>

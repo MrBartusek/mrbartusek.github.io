@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import Router from './components/Router';
 import ReactGA from 'react-ga4';
+import Router from './components/Router';
 
 function App() {
 	useEffect(() => {

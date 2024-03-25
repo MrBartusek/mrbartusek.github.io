@@ -1,9 +1,8 @@
 import { useTranslation } from 'react-i18next';
-import ContactForm from './ContactForm';
+import { Link } from 'react-router-dom';
+import Button from './Button';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
-import Button from './Button';
-import { Link } from 'react-router-dom';
 
 function ContactSection() {
 	const { t } = useTranslation();

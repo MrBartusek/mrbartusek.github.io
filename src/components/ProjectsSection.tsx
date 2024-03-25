@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next';
+import dokchatImage from '../assets/dokchat.png';
+import stockedUpImage from '../assets/stocked-up.png';
 import ProjectCard from './ProjectCard';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
-import stockedUpImage from '../assets/stocked-up.png';
-import dokchatImage from '../assets/dokchat.png';
 
 function ProjectsSection() {
 	const { t } = useTranslation();

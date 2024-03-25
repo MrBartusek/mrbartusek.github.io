@@ -1,9 +1,8 @@
-import React from 'react';
-import ChipDrawer from './ChipDrawer';
-import Chip from './Chip';
+import { useTranslation } from 'react-i18next';
 import { BsBoxArrowUpLeft } from 'react-icons/bs';
 import Button from './Button';
-import { useTranslation } from 'react-i18next';
+import Chip from './Chip';
+import ChipDrawer from './ChipDrawer';
 
 export interface ProjectCardProps {
 	name: string;

@@ -1,9 +1,9 @@
 import { useTranslation } from 'react-i18next';
+import { ScrollRestoration } from 'react-router-dom';
 import ContactForm from '../ContactForm';
 import Container from '../Container';
 import Layout from '../Layout';
 import SectionHeading from '../SectionHeading';
-import { ScrollRestoration } from 'react-router-dom';
 
 function ContactPage() {
 	const { t } = useTranslation();

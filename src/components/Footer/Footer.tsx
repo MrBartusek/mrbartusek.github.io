@@ -1,11 +1,9 @@
 import classNames from 'classnames';
-import { useTranslation } from 'react-i18next';
-import Container from '../Container';
-import FooterSocialDrawer from './FooterSocialDrawer';
-import FooterContainer from './FooterContainer';
 import FooterBrand from './FooterBrand';
+import FooterContainer from './FooterContainer';
 import FooterCopyright from './FooterCopyright';
 import FooterNavigation from './FooterNavigation';
+import FooterSocialDrawer from './FooterSocialDrawer';
 
 function Footer() {
 	return (

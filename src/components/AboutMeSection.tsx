@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
 import SkillsDrawer from './SkillsDrawer';
-import { Link } from 'react-router-dom';
 
 function AboutMeSection() {
 	const { t } = useTranslation();
