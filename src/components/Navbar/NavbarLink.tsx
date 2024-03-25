@@ -1,6 +1,6 @@
 export interface NavbarNavigationProps {
-    elementId: string;
-    children: React.ReactNode
+	elementId: string;
+	children: React.ReactNode;
 }
 
 function NavbarLink({ elementId, children }: NavbarNavigationProps) {
@@ -11,7 +11,10 @@ function NavbarLink({ elementId, children }: NavbarNavigationProps) {
 		}
 	}
 	return (
-		<button onClick={handleClick} className='hover:underline'>
+		<button
+			onClick={handleClick}
+			className="hover:underline"
+		>
 			{children}
 		</button>
 	);

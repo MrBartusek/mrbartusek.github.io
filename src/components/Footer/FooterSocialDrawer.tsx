@@ -1,6 +1,6 @@
 import { DetailedHTMLProps, HTMLAttributes } from 'react';
-import { SOCIAL_PLATFORMS } from '../socialPlatform';
-import SocialChip from './SocialChip';
+import { SOCIAL_PLATFORMS } from '../../socialPlatform';
+import SocialChip from '../SocialChip';
 import classNames from 'classnames';
 
 type DivProps = DetailedHTMLProps<
@@ -10,12 +10,12 @@ type DivProps = DetailedHTMLProps<
 
 export interface SocialChipsDrawerProps extends DivProps {}
 
-function HeroSocialDrawer({ className, ...props }: SocialChipsDrawerProps) {
+function FooterSocialDrawer({ className, ...props }: SocialChipsDrawerProps) {
 	return (
 		<div
 			{...props}
 			className={classNames(
-				'flex flex-wrap justify-center gap-6 lg:justify-start',
+				'flex flex-wrap items-center justify-center gap-5',
 				className,
 			)}
 		>
@@ -25,7 +25,7 @@ function HeroSocialDrawer({ className, ...props }: SocialChipsDrawerProps) {
 						name={platform.name}
 						icon={platform.icon}
 						url={platform.url}
-						variant="big"
+						variant="medium"
 						key={i}
 					/>
 				);
@@ -34,4 +34,4 @@ function HeroSocialDrawer({ className, ...props }: SocialChipsDrawerProps) {
 	);
 }
 
-export default HeroSocialDrawer;
+export default FooterSocialDrawer;

@@ -5,15 +5,24 @@ export interface SocialChipProps {
 	name: string;
 	icon: React.ReactNode;
 	url: string;
+	variant?: SocialChipVariant;
 }
 
-function SocialChip({ name, icon, url }: SocialChipProps) {
+export type SocialChipVariant = 'big' | 'medium';
+
+function SocialChip({ name, icon, url, variant = 'medium' }: SocialChipProps) {
+	const variantClasses: { [key in SocialChipVariant]: string } = {
+		big: 'text-4xl',
+		medium: 'text-3xl',
+	};
+
 	return (
 		<a
 			href={url}
 			target="_blank"
 			className={classNames(
-				'text-4xl text-primary transition-colors hover:text-gray-400',
+				'text-primary transition-colors hover:text-gray-400',
+				variantClasses[variant],
 			)}
 			rel="noreferrer"
 			title={name}
