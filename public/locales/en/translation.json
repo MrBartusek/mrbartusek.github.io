@@ -11,7 +11,11 @@
     },
     "hero": {
         "hello": "Hey! I'm",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec nulla in lorem scelerisque ullamcorper. Ut mattis feugiat porttitor. Nunc aliquam finibus luctus."
+        "about": "Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications."
+    },
+    "about": {
+        "title": "Passionate about creation",
+        "description": "Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications. I specialize in building backend using Node.js and TypeScript, as well as, frontend using React and TailwindCSS."
     },
     "projects": {
         "dokchat": {
