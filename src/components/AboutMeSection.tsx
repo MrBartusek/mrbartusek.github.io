@@ -24,7 +24,7 @@ function AboutMeSection() {
 				</div>
 				<div>
 					<SkillsDrawer className="mb-8 justify-center lg:justify-start" />
-					<h3 className="mb-4 text-xl font-bold">{t('about.title')} 💡</h3>
+					<h2 className="mb-4 text-xl font-bold">{t('about.title')} 💡</h2>
 					<p className="mb-6 text-lg">{t('about.description')}</p>
 					<Link
 						className="text-lg font-bold"
