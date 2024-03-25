@@ -10,7 +10,7 @@ export default {
         primary: '#286bfc',
         'primary-hover': '#0052ce',
         dark: '#182029',
-        light: '#f9fafb'
+        light: '#ffffff'
       },
       container: {
 				screens: {
