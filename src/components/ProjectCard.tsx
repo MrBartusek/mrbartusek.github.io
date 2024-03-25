@@ -30,7 +30,7 @@ function ProjectCard({
 				</ChipDrawer>
 				<p className="mb-12 text-lg md:text-xl">{description}</p>
 				<a href={url}>
-					<Button className="flex gap-3 md:px-8 md:py-3 md:text-xl">
+					<Button className="flex gap-3 md:px-8 md:py-4 md:text-xl">
 						<BsBoxArrowUpLeft />
 						View project
 					</Button>

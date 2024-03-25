@@ -1,9 +1,11 @@
+import { ScrollRestoration } from 'react-router-dom';
 import Container from '../Container';
 import Layout from '../Layout';
 
 function AboutPage() {
 	return (
 		<Layout>
+			<ScrollRestoration />
 			<Container className="py-12">
 				<h1 className="mb-4 text-4xl font-semibold">
 					I was always passionate about creation
