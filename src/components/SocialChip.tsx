@@ -21,7 +21,7 @@ function SocialChip({ name, icon, url, variant = 'medium' }: SocialChipProps) {
 			href={url}
 			target="_blank"
 			className={classNames(
-				'text-primary transition-colors hover:text-gray-400',
+				'text-primary shadow-xl transition-colors hover:text-gray-400',
 				variantClasses[variant],
 			)}
 			rel="noreferrer"

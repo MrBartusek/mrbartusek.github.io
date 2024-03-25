@@ -3,6 +3,8 @@ import { BsBoxArrowUpLeft } from 'react-icons/bs';
 import Button from './Button';
 import Chip from './Chip';
 import ChipDrawer from './ChipDrawer';
+import { Link } from 'react-router-dom';
+import classNames from 'classnames';
 
 export interface ProjectCardProps {
 	name: string;
@@ -31,19 +33,31 @@ function ProjectCard({
 					))}
 				</ChipDrawer>
 				<p className="mb-12 text-lg md:text-xl">{description}</p>
-				<a href={url}>
+				<Link
+					to={url}
+					target="_blank"
+				>
 					<Button className="flex gap-3 md:px-8 md:py-4 md:text-xl">
 						<BsBoxArrowUpLeft />
 						{t('common.view_project')}
 					</Button>
-				</a>
+				</Link>
 			</div>
 			<div className="m-auto flex max-w-[38rem] flex-shrink-0 lg:w-[30rem]">
-				<img
-					className="h-auto w-full rounded-xl"
-					src={image}
-					alt={name}
-				/>
+				<Link
+					to={url}
+					target="_blank"
+					className={classNames(
+						'rounded-xl  transition-all ',
+						'shadow-sm hover:-translate-y-3 hover:shadow-xl',
+					)}
+				>
+					<img
+						className="h-auto w-full rounded-xl"
+						src={image}
+						alt={name}
+					/>
+				</Link>
 			</div>
 		</div>
 	);

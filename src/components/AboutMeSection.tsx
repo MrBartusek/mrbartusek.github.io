@@ -14,7 +14,7 @@ function AboutMeSection() {
 				<div className="m-auto flex max-w-72 flex-shrink-0 items-center">
 					<div>
 						<img
-							className="h-auto w-full rounded-xl"
+							className="h-auto w-full rounded-xl shadow-sm"
 							alt="profile picture"
 							width={384}
 							height={468}
