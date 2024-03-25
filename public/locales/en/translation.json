@@ -1,7 +1,12 @@
 {
+    "common": {
+        "view_project": "View project"
+    },
     "navigation": {
+        "home": "Home",
         "about": "About",
-        "contact": "Contact"
+        "contact": "Contact",
+        "source": "View source"
     },
     "sections": {
         "projects": "My Projects",
@@ -14,16 +19,13 @@
     },
     "about": {
         "title": "Passionate about creation",
-        "description": "Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications. I specialize in building backend using Node.js and TypeScript, as well as, frontend using React and TailwindCSS."
+        "description": "Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications. I specialize in building backend using Node.js and TypeScript, as well as, frontend using React and TailwindCSS.",
+        "more": "Dig deeper into my bio"
     },
     "projects": {
         "dokchat": {
             "name": "DokChat",
             "description": "DokChat is a comprehensive instant messaging app with group chats, attachments, GIFs, and a Desktop app. Supports customization of user profiles and colors of groups. Comes with DokChat Desktop - Electron desktop client"
-        },
-        "gif-picker-react": {
-            "name": "gif-picker-react",
-            "description": "gif-picker-react is GIF picker component for React applications that features Tenor GIF search on and trending categories. Complete with state of the art customization"
         },
         "stocked-up": {
             "name": "StockedUp",
@@ -31,6 +33,7 @@
         }
     },
     "contact": {
+        "button": "Contact me",
         "name": "Name",
         "email": "E-mail address",
         "message": "Message",

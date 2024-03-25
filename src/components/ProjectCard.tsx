@@ -3,6 +3,7 @@ import ChipDrawer from './ChipDrawer';
 import Chip from './Chip';
 import { BsBoxArrowUpLeft } from 'react-icons/bs';
 import Button from './Button';
+import { useTranslation } from 'react-i18next';
 
 export interface ProjectCardProps {
 	name: string;
@@ -19,6 +20,8 @@ function ProjectCard({
 	url,
 	image,
 }: ProjectCardProps) {
+	const { t } = useTranslation();
+
 	return (
 		<div className="flex flex-col-reverse justify-between gap-12 lg:flex-row lg:gap-24">
 			<div>
@@ -32,7 +35,7 @@ function ProjectCard({
 				<a href={url}>
 					<Button className="flex gap-3 md:px-8 md:py-4 md:text-xl">
 						<BsBoxArrowUpLeft />
-						View project
+						{t('common.view_project')}
 					</Button>
 				</a>
 			</div>

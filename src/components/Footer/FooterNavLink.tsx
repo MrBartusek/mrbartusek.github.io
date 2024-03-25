@@ -1,9 +1,14 @@
-export interface NavbarNavigationProps {
-	children: React.ReactNode;
-}
+import { Link, LinkProps } from 'react-router-dom';
 
-function FooterNavLink({ children }: NavbarNavigationProps) {
-	return <a className="text-md font-bold">{children}</a>;
+export interface NavbarNavigationProps extends LinkProps {}
+
+function FooterNavLink(props: NavbarNavigationProps) {
+	return (
+		<Link
+			className="text-md font-bold"
+			{...props}
+		/>
+	);
 }
 
 export default FooterNavLink;

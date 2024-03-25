@@ -23,7 +23,7 @@ function ContactSection() {
 				</a>
 				<Link to="contact">
 					<Button className="flex gap-3 md:px-8 md:py-4 md:text-xl">
-						Contact me
+						{t('contact.button')}
 					</Button>
 				</Link>
 			</div>

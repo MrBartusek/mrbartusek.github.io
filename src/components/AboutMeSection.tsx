@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
 import SkillsDrawer from './SkillsDrawer';
+import { Link } from 'react-router-dom';
 
 function AboutMeSection() {
 	const { t } = useTranslation();
@@ -25,7 +26,12 @@ function AboutMeSection() {
 					<SkillsDrawer className="mb-8 justify-center lg:justify-start" />
 					<h3 className="mb-4 text-xl font-bold">{t('about.title')} 💡</h3>
 					<p className="mb-6 text-lg">{t('about.description')}</p>
-					<a className="text-lg font-bold">Dig deeper into my bio</a>
+					<Link
+						className="text-lg font-bold"
+						to="/about"
+					>
+						{t('about.more')}
+					</Link>
 				</div>
 			</div>
 		</Section>
