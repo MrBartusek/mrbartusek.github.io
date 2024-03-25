@@ -22,15 +22,15 @@ function ProjectCard({
 	return (
 		<div className="flex flex-col-reverse justify-between gap-12 lg:flex-row lg:gap-24">
 			<div>
-				<h4 className="mb-5 text-5xl font-bold">{name}</h4>
+				<h4 className="mb-5 text-4xl font-bold md:text-5xl">{name}</h4>
 				<ChipDrawer className="mb-8">
 					{skills.map((skill, index) => (
 						<Chip key={index}>{skill}</Chip>
 					))}
 				</ChipDrawer>
-				<p className="mb-12 text-xl">{description}</p>
+				<p className="mb-12 text-lg md:text-xl">{description}</p>
 				<a href={url}>
-					<Button className="flex gap-3 px-8 py-3 text-xl">
+					<Button className="flex gap-3 md:px-8 md:py-3 md:text-xl">
 						<BsBoxArrowUpLeft />
 						View project
 					</Button>

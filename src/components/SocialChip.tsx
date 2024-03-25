@@ -12,8 +12,8 @@ export type SocialChipVariant = 'big' | 'medium';
 
 function SocialChip({ name, icon, url, variant = 'medium' }: SocialChipProps) {
 	const variantClasses: { [key in SocialChipVariant]: string } = {
-		big: 'text-4xl',
-		medium: 'text-3xl',
+		big: 'text-3xl lg:text-4xl',
+		medium: 'text-2xl lg:text-3xl',
 	};
 
 	return (

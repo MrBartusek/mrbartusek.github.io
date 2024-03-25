@@ -16,7 +16,7 @@ function HeroSection() {
 				className={classNames(
 					'flex max-w-3xl items-center',
 					'h-[calc(75vh-88px)] lg:h-[calc(100vh-88px)]',
-					'text-center lg:text-left',
+					'px-12 text-center lg:px-0 lg:text-left',
 				)}
 			>
 				<div className="flex flex-1 flex-col justify-center">
@@ -34,7 +34,7 @@ function HeroSection() {
 						</span>
 					</h1>
 
-					<p className="mb-16 leading-6 sm:text-xl md:text-2xl md:leading-8">
+					<p className="mb-12 leading-6 sm:text-xl md:text-2xl md:leading-8 lg:mb-16">
 						<Trans
 							i18nKey={'hero.about'}
 							t={t}
