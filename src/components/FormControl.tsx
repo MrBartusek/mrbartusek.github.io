@@ -12,15 +12,17 @@ interface FormControlBaseProps<T extends 'input' | 'textarea'> {
 	as: T;
 }
 
-type FormControlInputProps = FormControlBaseProps<'input'> & FormControlProps<'input'>;
-type FormControlTextareaProps = FormControlBaseProps<'textarea'> & FormControlProps<'textarea'>;
+type FormControlInputProps = FormControlBaseProps<'input'> &
+	FormControlProps<'input'>;
+type FormControlTextareaProps = FormControlBaseProps<'textarea'> &
+	FormControlProps<'textarea'>;
 type FormControlPropsType = FormControlInputProps | FormControlTextareaProps;
 
 function FormControl(props: FormControlPropsType) {
 	const element = React.createElement(props.as || 'input', {
 		...props,
 		className: classNames(
-			'block w-full px-3 py-2.5 bg-gray-100 border-none',
+			'block w-full px-3 py-2.5 bg-gray-100 border-gray-200',
 			'rounded-xl focus:border-primary focus:shadow-sm shadow-primary',
 			'mt-1.5 mb-4 text-lg transition-shadow',
 			props.className,

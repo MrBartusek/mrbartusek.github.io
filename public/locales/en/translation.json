@@ -11,11 +11,11 @@
     },
     "hero": {
         "hello": "Hey! I'm",
-        "about": "Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications."
+        "about": "[SHORT ABOUT PLACEHOLDER] Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications."
     },
     "about": {
         "title": "Passionate about creation",
-        "description": "Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications. I specialize in building backend using Node.js and TypeScript, as well as, frontend using React and TailwindCSS."
+        "description": "[MEDIUM ABOUT PLACEHOLDER] Known online as MrBartusek. I'm a Web Developer with passion and experience for building websites and web applications. I specialize in building backend using Node.js and TypeScript, as well as, frontend using React and TailwindCSS."
     },
     "projects": {
         "dokchat": {
@@ -35,7 +35,7 @@
         "name": "Name",
         "email": "E-mail address",
         "message": "Message",
-        "submit": "Submit",
+        "submit": "Send",
         "via-email": "Or reach me via email"
     },
     "footer": {
