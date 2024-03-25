@@ -10,7 +10,7 @@ function Layout({ children }: LayoutProps) {
 	return (
 		<>
 			<Navbar />
-			<main className="pb-24">{children}</main>
+			<main className="min-h-[80vh] pb-24">{children}</main>
 			<Footer />
 		</>
 	);

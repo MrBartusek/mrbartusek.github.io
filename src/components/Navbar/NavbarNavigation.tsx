@@ -6,8 +6,7 @@ function NavbarNavigation() {
 
 	return (
 		<nav className="hidden gap-6 sm:flex">
-			<NavbarLink elementId="skills">{t('navigation.skills')}</NavbarLink>
-			<NavbarLink elementId="projects">{t('navigation.projects')}</NavbarLink>
+			<NavbarLink to="about">{t('navigation.about')}</NavbarLink>
 			<NavbarLink elementId="contact">{t('navigation.contact')}</NavbarLink>
 		</nav>
 	);

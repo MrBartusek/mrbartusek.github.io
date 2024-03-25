@@ -1,7 +1,6 @@
 {
     "navigation": {
-        "projects": "Projects",
-        "skills": "Skills",
+        "about": "About",
         "contact": "Contact"
     },
     "sections": {

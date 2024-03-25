@@ -1,11 +1,15 @@
+import { Link } from 'react-router-dom';
 import UnderlineDecoration from '../UnderlineDecoration';
 
 function NavbarLogo() {
 	return (
-		<div className="flex flex-col">
+		<Link
+			className="flex flex-col text-light hover:text-light"
+			to="/"
+		>
 			<div className="text-2xl font-bold uppercase">dokurno.dev</div>
 			<UnderlineDecoration />
-		</div>
+		</Link>
 	);
 }
 

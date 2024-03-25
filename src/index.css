@@ -19,12 +19,13 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  @apply text-primary transition-colors hover:text-primary-hover;
+body, #root {
+  margin: 0 auto;
+  min-height: 100vh;
 }
 
-#root {
-  margin: 0 auto;
+a {
+  @apply text-primary transition-colors hover:text-primary-hover;
 }
 
 .styled-link {
