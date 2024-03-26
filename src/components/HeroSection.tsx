@@ -14,7 +14,7 @@ function HeroSection() {
 		>
 			<div
 				className={classNames(
-					'flex max-w-3xl items-center',
+					'flex items-center',
 					'h-[calc(75vh-88px)] lg:h-[calc(100vh-88px)]',
 					'text-center lg:text-left',
 				)}
@@ -34,14 +34,13 @@ function HeroSection() {
 						</span>
 					</h1>
 
-					<p className="mb-12 leading-6 sm:text-xl md:text-2xl md:leading-8 lg:mb-16">
-						<Trans
-							i18nKey={'hero.about'}
-							t={t}
-							components={{
-								username: <code className="text-gray-300" />,
-							}}
-						/>
+					<p
+						className={classNames(
+							'leading-6 sm:text-xl md:text-2xl md:leading-8 lg:mb-16',
+							'mb-12 max-w-2xl text-gray-300',
+						)}
+					>
+						{t('hero.about')}
 					</p>
 					<HeroSocialDrawer />
 				</div>
