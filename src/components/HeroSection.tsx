@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import { Trans, useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import HeroSocialDrawer from './HeroSocialDrawer';
 import Section from './Section';
 
