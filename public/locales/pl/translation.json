@@ -20,7 +20,7 @@
     },
     "about": {
         "title": "Pasjonuje się tworzeniem",
-        "description": "Znany online jako MrBartusek. Jestem programistą webowym z pasją i doświadczeniem w tworzeniu stron internetowych i aplikacji internetowych. Specjalizuję się w tworzeniu backendu przy użyciu Node.js i TypeScript, a także frontendu przy użyciu React i TailwindCSS.",
+        "description": "Od kiedy tylko pamietam, miałem w sobię wewnętrzną pasją do tworzenia. Od papierowych modeli po układy elektroniczne, miałem wrodzoną chęć ożywiania swoich pomysłów. W dzisiejszych czasach kieruję tę energię w tworzenie oprogramowania, projektując strony internetowe i narzędzia, aby rozwiązywać zarówno moje, jak i problemy innych osób. Wolny czas lubię spędzać grając w gry wideo i wybierając się na długie nocne spacery.",
         "more": "Przeczytaj więcej o mnie"
     },
     "projects": {
