@@ -1,5 +1,5 @@
 import { ScrollRestoration } from 'react-router-dom';
-import AboutMeSection from '../AboutMeSection';
+import SkillsSection from '../SkillsSection';
 import ContactSection from '../ContactSection';
 import HeroSection from '../HeroSection';
 import Layout from '../Layout';
@@ -10,7 +10,7 @@ function HomePage() {
 		<Layout>
 			<ScrollRestoration />
 			<HeroSection />
-			<AboutMeSection />
+			<SkillsSection />
 			<ProjectsSection />
 			<ContactSection />
 		</Layout>

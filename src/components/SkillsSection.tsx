@@ -4,7 +4,7 @@ import Section from './Section';
 import SectionHeading from './SectionHeading';
 import SkillsDrawer from './SkillsDrawer';
 
-function AboutMeSection() {
+function SkillsSection() {
 	const { t } = useTranslation();
 
 	return (
@@ -38,4 +38,4 @@ function AboutMeSection() {
 	);
 }
 
-export default AboutMeSection;
+export default SkillsSection;
