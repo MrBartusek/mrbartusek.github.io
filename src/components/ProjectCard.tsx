@@ -53,8 +53,8 @@ function ProjectCard({
 					target="_blank"
 					className={classNames(
 						'rounded-xl transition-all ',
-						'shadow-sm hover:-translate-y-3 hover:shadow-xl',
-						' hover:brightness-90',
+						'shadow-md hover:-translate-y-3 hover:shadow-xl',
+						'border hover:brightness-90',
 					)}
 				>
 					<img

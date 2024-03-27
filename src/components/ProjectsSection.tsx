@@ -27,8 +27,8 @@ function ProjectsSection() {
 					description={t('projects.dokchat.description')}
 					url="https://dokchat.dokurno.dev"
 					imageSrc={dokchatImage}
-					imageWidth={754}
-					imageHeight={548}
+					imageWidth={1300}
+					imageHeight={939}
 				/>
 			</div>
 		</Section>
