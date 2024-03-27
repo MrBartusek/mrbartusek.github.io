@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { RESUME_URL } from '../socialPlatform';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import i18n from '../i18n';
+import { RESUME_URL } from '../socialPlatform';
 
 type ParagraphProps = React.DetailedHTMLProps<
 	React.HTMLAttributes<HTMLParagraphElement>,
