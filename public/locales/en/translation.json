@@ -1,6 +1,7 @@
 {
     "common": {
-        "view_project": "View project"
+        "view_project": "View project",
+        "looking_for_my": "Looking for my"
     },
     "navigation": {
         "home": "Home",

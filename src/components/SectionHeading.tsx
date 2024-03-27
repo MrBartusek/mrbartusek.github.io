@@ -1,13 +1,23 @@
 import React from 'react';
 import UnderlineDecoration from './UnderlineDecoration';
+import classNames from 'classnames';
 
-export interface ProjectsSectionProps {
-	children?: React.ReactNode;
-}
+type DivProps = React.DetailedHTMLProps<
+	React.HTMLAttributes<HTMLDivElement>,
+	HTMLDivElement
+>;
+export interface ProjectsSectionProps extends DivProps {}
 
-function SectionHeading({ children }: ProjectsSectionProps) {
+function SectionHeading({
+	children,
+	className,
+	...props
+}: ProjectsSectionProps) {
 	return (
-		<div className="mb-12 inline-flex flex-col">
+		<div
+			{...props}
+			className={classNames('mb-12 inline-flex flex-col', className)}
+		>
 			<span className="mb-1 text-4xl font-semibold">{children}</span>
 			<UnderlineDecoration />
 		</div>

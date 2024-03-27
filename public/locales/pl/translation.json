@@ -1,6 +1,7 @@
 {
     "common": {
-        "view_project": "Zobacz projekt"
+        "view_project": "Zobacz projekt",
+        "looking_for": "Szukasz mojego"
     },
     "navigation": {
         "home": "Strona główna",

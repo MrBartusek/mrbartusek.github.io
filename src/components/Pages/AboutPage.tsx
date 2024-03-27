@@ -1,15 +1,19 @@
 import { ScrollRestoration } from 'react-router-dom';
 import Container from '../Container';
 import Layout from '../Layout';
+import ResumeFinder from '../ResumeFinder';
+import SectionHeading from '../SectionHeading';
 
 function AboutPage() {
 	return (
 		<Layout>
 			<ScrollRestoration />
 			<Container className="py-12">
-				<h1 className="mb-4 text-4xl font-semibold">
+				<SectionHeading className="mb-6">
 					I was always passionate about creation
-				</h1>
+				</SectionHeading>
+
+				<ResumeFinder className="mb-4 font-semibold" />
 
 				<p className="mb-4">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
