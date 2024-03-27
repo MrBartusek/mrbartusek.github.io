@@ -1,11 +1,11 @@
 import { Link, ScrollRestoration } from 'react-router-dom';
+import AboutHeader from '../About/AboutHeader';
+import AboutParagraph from '../About/AboutPharagraph';
+import AboutSection from '../About/AboutSection';
 import Container from '../Container';
 import Layout from '../Layout';
 import ResumeFinder from '../ResumeFinder';
 import SectionHeading from '../SectionHeading';
-import AboutHeader from '../About/AboutHeader';
-import AboutSection from '../About/AboutSection';
-import AboutParagraph from '../About/AboutPharagraph';
 
 function AboutPage() {
 	return (

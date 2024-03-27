@@ -1,10 +1,10 @@
+import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
 import { BsBoxArrowUpLeft } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import Button from './Button';
 import Chip from './Chip';
 import ChipDrawer from './ChipDrawer';
-import { Link } from 'react-router-dom';
-import classNames from 'classnames';
 
 export interface ProjectCardProps {
 	name: string;

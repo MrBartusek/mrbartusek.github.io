@@ -1,6 +1,6 @@
+import classNames from 'classnames';
 import React from 'react';
 import UnderlineDecoration from './UnderlineDecoration';
-import classNames from 'classnames';
 
 type DivProps = React.DetailedHTMLProps<
 	React.HTMLAttributes<HTMLDivElement>,

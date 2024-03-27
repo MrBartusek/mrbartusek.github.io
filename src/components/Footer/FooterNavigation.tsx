@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import FooterNavLink from './FooterNavLink';
 import { RESUME_URL } from '../../socialPlatform';
+import FooterNavLink from './FooterNavLink';
 
 function FooterNavigation() {
 	const { t } = useTranslation();
