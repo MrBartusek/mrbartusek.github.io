@@ -6,11 +6,15 @@ import Container from '../Container';
 import Layout from '../Layout';
 import ResumeFinder from '../ResumeFinder';
 import SectionHeading from '../SectionHeading';
+import { Helmet } from 'react-helmet';
 
 function AboutPage() {
 	return (
 		<Layout>
 			<ScrollRestoration />
+			<Helmet>
+				<title>About</title>
+			</Helmet>
 			<Container className="py-12">
 				<SectionHeading className="mb-6">
 					I was always passionate about creation
