@@ -14,13 +14,16 @@ function SectionHeading({
 	...props
 }: ProjectsSectionProps) {
 	return (
-		<div
+		<h2
 			{...props}
-			className={classNames('mb-12 inline-flex flex-col', className)}
+			className={classNames(
+				'mb-12 inline-flex flex-col text-4xl font-semibold',
+				className,
+			)}
 		>
-			<span className="mb-1 text-4xl font-semibold">{children}</span>
+			<span className="mb-1 ">{children}</span>
 			<UnderlineDecoration />
-		</div>
+		</h2>
 	);
 }
 

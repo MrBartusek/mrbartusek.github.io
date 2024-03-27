@@ -1,6 +1,7 @@
 {
     "common": {
         "view_project": "View project",
+        "language_locked": "This page is not available in your language.",
         "looking_for_my": "Looking for my"
     },
     "navigation": {

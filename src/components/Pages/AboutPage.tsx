@@ -3,6 +3,9 @@ import Container from '../Container';
 import Layout from '../Layout';
 import ResumeFinder from '../ResumeFinder';
 import SectionHeading from '../SectionHeading';
+import AboutHeader from '../About/AboutHeader';
+import AboutSection from '../About/AboutSection';
+import AboutParagraph from '../About/AboutPharagraph';
 
 function AboutPage() {
 	return (
@@ -13,61 +16,40 @@ function AboutPage() {
 					I was always passionate about creation
 				</SectionHeading>
 
-				<ResumeFinder className="mb-4 font-semibold" />
+				<ResumeFinder className="mb-8 text-lg font-semibold" />
 
-				<p className="mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-					consequatur iusto! Nostrum eaque cum sequi est, minima et id
-					perspiciatis quam ad dicta assumenda non error deleniti vel hic iste.
-				</p>
-
-				<h2 className="mb-3 mt-12 text-2xl font-semibold">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				</h2>
-				<p className="mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-					repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
-					iure delectus nostrum optio molestiae eius inventore quas nobis et
-					repellat rerum error?
-				</p>
-
-				<h2 className="mb-3 mt-12 text-2xl font-semibold">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				</h2>
-				<p className="mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-					repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
-					iure delectus nostrum optio molestiae eius inventore quas nobis et
-					repellat rerum error?
-				</p>
-				<p className="mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-					repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
-					iure delectus nostrum optio molestiae eius inventore quas nobis et
-					repellat rerum error?
-				</p>
-				<p className="mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-					repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
-					iure delectus nostrum optio molestiae eius inventore quas nobis et
-					repellat rerum error?
-				</p>
-
-				<h2 className="mb-3 mt-12 text-2xl font-semibold">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-				</h2>
-				<p className="mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-					repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
-					iure delectus nostrum optio molestiae eius inventore quas nobis et
-					repellat rerum error?
-				</p>
-				<p className="mb-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-					repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
-					iure delectus nostrum optio molestiae eius inventore quas nobis et
-					repellat rerum error?
-				</p>
+				<AboutSection>
+					<AboutHeader>My quick story</AboutHeader>
+					<AboutParagraph>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+						consequatur iusto! Nostrum eaque cum sequi est, minima et id
+						perspiciatis quam ad dicta assumenda non error deleniti vel hic
+						iste.
+					</AboutParagraph>
+				</AboutSection>
+				<AboutSection>
+					<AboutHeader>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					</AboutHeader>
+					<AboutParagraph>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+						repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
+						iure delectus nostrum optio molestiae eius inventore quas nobis et
+						repellat rerum error?
+					</AboutParagraph>
+					<AboutParagraph>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+						repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
+						iure delectus nostrum optio molestiae eius inventore quas nobis et
+						repellat rerum error?
+					</AboutParagraph>
+					<AboutParagraph>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+						repudiandae incidunt ipsa obcaecati beatae, maxime laboriosam ullam
+						iure delectus nostrum optio molestiae eius inventore quas nobis et
+						repellat rerum error?
+					</AboutParagraph>
+				</AboutSection>
 			</Container>
 		</Layout>
 	);

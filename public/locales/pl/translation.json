@@ -1,7 +1,8 @@
 {
     "common": {
         "view_project": "Zobacz projekt",
-        "looking_for": "Szukasz mojego"
+        "language_locked": "Ta strona jest dostępna tylko w języku angielskim.",
+        "looking_for_my": "Szukasz mojego"
     },
     "navigation": {
         "home": "Strona główna",
