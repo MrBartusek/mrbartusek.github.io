@@ -7,9 +7,8 @@ export interface SocialPlatform {
 	url: string;
 }
 
-// FIX ME
 export const RESUME_URL =
-	'https://drive.google.com/file/d/1Cx72w-of3XTNqX9X1m_4fxlJjg8kI0FS/view?usp=sharing';
+	'https://drive.google.com/file/d/1qULuqwABy-9Dyr5Mb3zb7a8HCClE6OAn/view?usp=sharing';
 
 export const SOCIAL_PLATFORMS: SocialPlatform[] = [
 	{
