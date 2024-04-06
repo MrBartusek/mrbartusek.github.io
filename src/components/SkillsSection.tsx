@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Section from './Section';
 import SectionHeading from './SectionHeading';
 import SkillsDrawer from './SkillsDrawer';
+import ProfileImg from '../assets/profile.png';
 
 function SkillsSection() {
 	const { t } = useTranslation();
@@ -18,7 +19,7 @@ function SkillsSection() {
 							alt="profile picture"
 							width={384}
 							height={468}
-							src="https://placehold.co/384x468"
+							src={ProfileImg}
 						/>
 					</div>
 				</div>
