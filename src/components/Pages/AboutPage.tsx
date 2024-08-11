@@ -4,7 +4,6 @@ import AboutParagraph from '../About/AboutPharagraph';
 import AboutSection from '../About/AboutSection';
 import Container from '../Container';
 import Layout from '../Layout';
-import ResumeFinder from '../ResumeFinder';
 import SectionHeading from '../SectionHeading';
 import { Helmet } from 'react-helmet';
 
@@ -19,8 +18,6 @@ function AboutPage() {
 				<SectionHeading className="mb-6">
 					I was always passionate about creation
 				</SectionHeading>
-
-				<ResumeFinder className="mb-8 text-lg font-semibold" />
 
 				<AboutSection>
 					<AboutHeader>My quick story</AboutHeader>

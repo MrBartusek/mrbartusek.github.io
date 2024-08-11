@@ -1,4 +1,4 @@
-import { SKILLS } from '../skills';
+import { SKILLS } from '../data/skills';
 import Chip from './Chip';
 import ChipDrawer from './ChipDrawer';
 

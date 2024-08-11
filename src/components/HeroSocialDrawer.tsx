@@ -15,7 +15,7 @@ function HeroSocialDrawer({ className, ...props }: SocialChipsDrawerProps) {
 		<div
 			{...props}
 			className={classNames(
-				'flex flex-wrap justify-center gap-6 lg:justify-start',
+				'flex flex-wrap justify-center gap-7 lg:justify-start',
 				className,
 			)}
 		>
