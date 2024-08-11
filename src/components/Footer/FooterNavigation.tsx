@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { RESUME_URL } from '../../data/socialPlatforms';
 import FooterNavLink from './FooterNavLink';
 
 function FooterNavigation() {
@@ -10,12 +9,6 @@ function FooterNavigation() {
 			<nav className="flex flex-col flex-wrap gap-x-12 gap-y-3 py-2 lg:max-h-32">
 				<FooterNavLink to="/">{t('navigation.home')}</FooterNavLink>
 				<FooterNavLink to="/about">{t('navigation.about')}</FooterNavLink>
-				<FooterNavLink
-					to={RESUME_URL}
-					target="_blank"
-				>
-					{t('navigation.resume')}
-				</FooterNavLink>
 				<FooterNavLink to="/contact">{t('navigation.contact')}</FooterNavLink>
 				<FooterNavLink
 					to="https://github.com/MrBartusek/mrbartusek.github.io"
