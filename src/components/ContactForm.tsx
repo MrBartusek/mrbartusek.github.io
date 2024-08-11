@@ -16,22 +16,22 @@ function ContactForm() {
 				<div className="flex flex-col md:flex-row md:gap-8">
 					<FormControl
 						as="input"
-						label={t('contact.name.label')}
+						label={t('contact_form.name.label')}
 						type="text"
 						id="name"
 						name="name"
-						placeholder={t('contact.name.placeholder')}
+						placeholder={t('contact_form.name.placeholder')}
 						required
 						minLength={2}
 						maxLength={32}
 					/>
 					<FormControl
 						as="input"
-						label={t('contact.email.label')}
+						label={t('contact_form.email.label')}
 						type="email"
 						id="email"
 						name="email"
-						placeholder={t('contact.email.placeholder')}
+						placeholder={t('contact_form.email.placeholder')}
 						required
 						minLength={2}
 						maxLength={32}
@@ -39,10 +39,10 @@ function ContactForm() {
 				</div>
 				<FormControl
 					as="textarea"
-					label={t('contact.message.label')}
+					label={t('contact_form.message.label')}
 					id="message"
 					name="message"
-					placeholder={t('contact.message.placeholder')}
+					placeholder={t('contact_form.message.placeholder')}
 					required
 					rows={8}
 					maxLength={4000}
@@ -56,7 +56,7 @@ function ContactForm() {
 
 				<div className="mt-8 flex flex-col-reverse items-center justify-between gap-5 md:flex-row">
 					<div className="text-center  md:text-left">
-						{t('contact.via-email')}:{' '}
+						{t('contact_form.via-email')}:{' '}
 						<a
 							href="mailto:bartosz@dokurno.dev"
 							className="underline"
@@ -68,7 +68,7 @@ function ContactForm() {
 						type="submit"
 						className="px-16 md:px-8"
 					>
-						{t('contact.submit')}
+						{t('contact_form.submit')}
 					</Button>
 				</div>
 			</form>

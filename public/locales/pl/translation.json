@@ -36,6 +36,11 @@
         }
     },
     "contact": {
+        "by_email": "Napisz do mnie e-mail",
+        "by_form": "Lub, użyj formularza",
+        "contact_form": "Formularz kontaktowy"
+    },
+    "contact_form": {
         "name": {
             "label": "Imię",
             "placeholder": "Jan Kowalski"
