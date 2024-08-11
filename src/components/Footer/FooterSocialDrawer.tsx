@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { DetailedHTMLProps, HTMLAttributes } from 'react';
-import { SOCIAL_PLATFORMS } from '../../socialPlatform';
+import { SOCIAL_PLATFORMS } from '../../data/socialPlatforms';
 import SocialChip from '../SocialChip';
 
 type DivProps = DetailedHTMLProps<

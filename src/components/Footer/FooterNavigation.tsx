@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { RESUME_URL } from '../../socialPlatform';
+import { RESUME_URL } from '../../data/socialPlatforms';
 import FooterNavLink from './FooterNavLink';
 
 function FooterNavigation() {
