@@ -36,8 +36,8 @@
         }
     },
     "contact": {
-        "by_email": "Reach me by email:",
-        "by_form": "Or, with contact form:",
+        "by_email": "Reach me by email",
+        "by_form": "Or, with contact form",
         "contact_form": "Contact form"
     },
     "contact_form": {
